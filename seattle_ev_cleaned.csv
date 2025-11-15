@@ -1,0 +1,683 @@
+Station Name,Street Address,City,State,ZIP,Latitude,Longitude,EV Connector Types,EV Level1 EVSE Num,EV Level2 EVSE Num,EV DC Fast Count,Access Days Time,Status Code,Station Phone,EV Network
+Seattle-Tacoma International Airport - General Parking,17801 Pacific Hwy S,Seattle,WA,98188,47.443377,-122.296229,J1772,,68.0,,24 hours daily; pay lot; Drivers must bring their own J1772 cordset for Level 1 charging,E,206-787-5388,Non-Networked
+Caplan's Rainbow Parking,214 Columbia St,Seattle,WA,98104,47.604115,-122.332907,J1772,,2.0,,Garage business hours; see the valet for access,E,206-682-2991,Non-Networked
+City of Seattle - Central Library,1000 4th Ave,Seattle,WA,98104,47.606684,-122.332664,J1772,,3.0,,24 hours daily,E,206-386-4636,Non-Networked
+City of Seattle - Seattle Center,516 Harrison St,Seattle,WA,98109,47.622085,-122.347124,J1772,,6.0,,24 hours daily; parking fee,E,206-684-7340,Non-Networked
+KING COUNTY DES KSC STATION #1,201 S Jackson St,Seattle,WA,98104,47.598663,-122.331009,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+VIA6 VIA6-SOUTH,2121 6th Ave,Seattle,WA,98121,47.613883,-122.339405,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+800 FIFTH AVE STATION 2,800  5th Ave,Seattle,WA,98104,47.605599,-122.330626,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+UWMC 4245 UWMC 4245 #1,4245 Roosevelt Ave NE,Seattle,WA,98105,47.658961,-122.3185,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+UWMC 4225 UWMC 4225 #1,4225 Roosevelt Way NE,Seattle,WA,98105,47.658409,-122.318392,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+525 NORTHGATE RETAIL #1,525 NE Northgate Way,Seattle,WA,98125,47.707951,-122.321496,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+VM CHARGERS VIRGINIA MASON2,1012 Terry Ave,Seattle,WA,98101,47.609528,-122.326393,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 EV216,588 Bell St,Seattle,WA,98121,47.616552,-122.342727,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+MADISON GARAGE MADISON GARAGE2,1229 Madison St,Seattle,WA,98104,47.610087,-122.322114,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Expo Apartments,118 Republican St,Seattle,WA,98109,47.6232795,-122.354922,J1772,,1.0,,24 hours daily; apartment residents only,E,206-751-1356,Non-Networked
+Bedrooms & More,300 NE 45th St,Seattle,WA,98105,47.66159,-122.324877,J1772,,1.0,,"10am-7pm M-F, 9am-6pm Sat, 10am-6pm Sun; customer use only",E,206-633-4505,Non-Networked
+SAFECO PLAZA SAFECO PLAZA #1,1001 4th Ave Safeco Plaza,Seattle,WA,98154,47.606106,-122.333782,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+DUAL EV SOUTH 1,2616 NE 46th St,Seattle,WA,98105,47.661471,-122.299298,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KING COUNTY DES KSC STATION #5,253-295 S Jackson St,Seattle,WA,98104,47.599,-122.330804,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+400 DEXTER AVE 400 DEXTER 1,400 Dexter Ave N,Seattle,WA,98109,47.622264,-122.342164,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+DUAL EV SOUTH 2,2623 NE University Village St,Seattle,WA,98105,47.661361,-122.298284,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+First Hill Medical Building,515 Minor Ave,Seattle,WA,98104,47.60636,-122.321639,J1772,,1.0,,24 hours daily,E,888-998-2546,Blink Network
+520 Pike Tower,520 Pike St.,Seattle,WA,98101,47.611102,-122.334893,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+Lake Union Building,1700 Westlake Ave N,Seattle,WA,98109,47.633992,-122.339684,J1772,,2.0,,24 hours daily,E,888-998-2546,Blink Network
+Seattle-Tacoma International Airport - Terminal Direct Parking,17801 Pacific Hwy S,Seattle,WA,98188,47.443363,-122.296428,J1772,,28.0,,24 hours daily; pay lot; Drivers must bring their own J1772 cordset for Level 1 charging,E,206-787-5308,Non-Networked
+CITY LIGHT N BEACON HILL 1,2535 16th Avenue South,Seattle,WA,98144,47.579789,-122.3122,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+1101 WESTLAKE WESTLAKE 2,1101 Westlake Ave N,Seattle,WA,98109,47.6289,-122.341536,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+DC CORRIDOR SEATTLE MINI,11536 Lake City Way NE,Seattle,WA,98125,47.713224,-122.298415,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+EVROADWAY WA-PACSCI-L2-1,200 Denny Wy,Seattle,WA,98109,47.61906,-122.35235,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BMGF P1 STATION 2,500 5th Ave N,Seattle,WA,98109,47.623424,-122.345872,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Bedrooms & More,324 NE 45th St,Seattle,WA,98105,47.661582,-122.32426,J1772,,1.0,,"10am-7pm M-F, 9am-6pm Sat, 10am-6pm Sun; for customer use only",E,206-633-4505,Non-Networked
+Thompson Seattle - Tesla Destination,100 Stewart St,Seattle,WA,98101,47.610335,-122.341261,J1772 TESLA,,2.0,,,E,877-798-3752,Tesla Destination
+Hotel 1000 - Tesla Destination,1000 1st Ave,Seattle,WA,98104,47.604904,-122.336189,J1772 TESLA,,3.0,,,E,877-798-3752,Tesla Destination
+Motif Seattle - Tesla Destination,1415 5th Ave,Seattle,WA,98101,47.610166,-122.335179,J1772 TESLA,,4.0,,,E,877-798-3752,Tesla Destination
+Hotel Theodore - Tesla Destination,1531 7th Ave,Seattle,WA,98101,47.612347,-122.334168,TESLA,,3.0,,,E,877-798-3752,Tesla Destination
+Cedarbrook Lodge - Tesla Destination,18525 36th Ave S,Seattle,WA,98188,47.437313,-122.287623,J1772 TESLA,,2.0,,,E,877-798-3752,Tesla Destination
+Seattle Marriott Waterfront - Tesla Destination,2100 Alaskan Way,Seattle,WA,98121,47.610845,-122.347258,J1772 TESLA,,3.0,,,E,877-798-3752,Tesla Destination
+Bedrooms & More - Tesla Destination,324 NE 45th St,Seattle,WA,98105,47.661523,-122.324913,TESLA,,2.0,,,E,877-798-3752,Tesla Destination
+400 Fairview - Tesla Destination,400 Fairview Ave N,Seattle,WA,98109,47.622544,-122.333913,J1772 TESLA,,6.0,,,E,877-798-3752,Tesla Destination
+Fairmont Olympic Hotel - Seattle - Tesla Destination,411 University St,Seattle,WA,98101,47.608197,-122.334028,J1772 TESLA,,7.0,,,E,877-798-3752,Tesla Destination
+Residence Inn by Marriott Seattle University Distric - Tesla Destination,4501 12th Ave NE,Seattle,WA,98105,47.661869,-122.315415,TESLA,,2.0,,,E,877-798-3752,Tesla Destination
+Hampton Inn and Suites Seattle-Downtown - Tesla Destination,500 5th Ave N,Seattle,WA,98109,47.625675,-122.346886,TESLA,,2.0,,,E,877-798-3752,Tesla Destination
+Four Points by Sheraton Downtown Seattle Center - Tesla Destination,601 Roy St,Seattle,WA,98109,47.625378,-122.344596,TESLA,,2.0,,,E,877-798-3752,Tesla Destination
+Hotel Max - Tesla Destination,620 Stewart St,Seattle,WA,98101,47.614141,-122.336357,TESLA,,1.0,,,E,877-798-3752,Tesla Destination
+Shafer Baillie Mansion Bed & Breakfast - Tesla Destination,907 14th Ave E,Seattle,WA,98112,47.627047,-122.314961,TESLA,,1.0,,,E,877-798-3752,Tesla Destination
+Four Seasons Hotel Seattle - Tesla Destination,99 Union St,Seattle,WA,98101,47.607651,-122.339418,TESLA,,2.0,,,E,877-798-3752,Tesla Destination
+ALLEN INSTITUTE SOUTH,615 Westlake Ave N,Seattle,WA,98109,47.625077,-122.339032,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+T-MOBILE PARK GRIFFEY,1518 1st Ave S,Seattle,WA,98134,47.589593,-122.332945,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Washington Athletic Club Garage - Tesla Destination,1325 6th Ave,Seattle,WA,98101,47.609629,-122.333133,J1772 TESLA,,5.0,,,E,877-798-3752,Tesla Destination
+188 BLAINE ATRIUM4,1818 Fairview Ave East,Seattle,WA,98102,47.635213,-122.325845,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+188 BLAINE ATRIUM3,1823 Eastlake Ave E,Seattle,WA,98102,47.635119,-122.325866,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+VIDA APARTMENTS VIDA 1,1205 NE 66th ST,Seattle,WA,98115,47.678055,-122.314119,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Broadway Market,401 Broadway E,Seattle,WA,98102,47.622517,-122.321407,J1772,,2.0,,Mon: 6:00am-11:59pm; Tue: 6:00am-11:59pm; Wed: 6:00am-11:59pm; Thu: 6:00am-11:59pm; Fri: 6:00am-11:59pm; Sat: 6:00am-11:59pm; Sun: 6:00am-11:59pm,E,855-900-7584,SHELL_RECHARGE
+Safeway 7300 Roosevelt Way Ne,7300 Roosevelt Way Ne,Seattle,WA,98115,47.682581,-122.317165,J1772,,2.0,,Mon: 6:00am-11:59pm; Tue: 6:00am-11:59pm; Wed: 6:00am-11:59pm; Thu: 6:00am-11:59pm; Fri: 6:00am-11:59pm; Sat: 6:00am-11:59pm; Sun: 6:00am-11:59pm,E,855-900-7584,SHELL_RECHARGE
+AMC Loews Oak Tree 6,10006 Aurora Ave N,Seattle,WA,98133,47.701876,-122.343075,J1772,,2.0,,Mon: 6:00am-11:59pm; Tue: 6:00am-11:59pm; Wed: 6:00am-11:59pm; Thu: 6:00am-11:59pm; Fri: 6:00am-11:59pm; Sat: 6:00am-11:59pm; Sun: 6:00am-11:59pm,E,855-900-7584,SHELL_RECHARGE
+Simon Northgate Mall,401 NE Northgate Way,Seattle,WA,98125,47.70846,-122.32489,J1772 J1772COMBO,,1.0,3.0,24 hours daily,E,833-632-2778,Electrify America
+KW RADIUS RADIUS 1,400 Boren Ave N,Seattle,WA,98109,47.622575,-122.335481,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+The Commons at Ballard,"5621 22nd Avenue, NW",Seattle,WA,98107,47.6699634,-122.3847489,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+Amelia / Sea76,501 Fairview Avenue North,Seattle,WA,98109,47.6233435,-122.334684,J1772,,6.0,,24 hours daily,E,888-998-2546,Blink Network
+Troy Block,300 Boren Avenue North,Seattle,WA,98109,47.6211672,-122.3354501,J1772,,8.0,,24 hours daily,E,888-998-2546,Blink Network
+Hill 7 Station,1099 Stewart Street,Seattle,WA,98101,47.6164918,-122.3324879,J1772,,7.0,,24 hours daily,E,888-998-2546,Blink Network
+531628  2201 Westlake,2201 Westlake Avenue,Seattle,WA,98109,47.61809006,-122.33892,J1772,,6.0,,24 hours daily,E,888-998-2546,Blink Network
+531622  818 Stewart Street Holdco LLC,818 Stewart Street,Seattle,WA,98101,47.6156458,-122.3350555,J1772,,6.0,,24 hours daily,E,888-998-2546,Blink Network
+818 Stewart Street Holdco LLC,818 Stewart Street,Seattle,WA,98101,47.6156458,-122.3350555,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+531604  600 Broadway,600 Broadway,Seattle,WA,98122,47.6078691,-122.3196562,J1772,,6.0,,24 hours daily,E,888-998-2546,Blink Network
+1201 Third,1201 Third Avenue,Seattle,WA,98101,47.6072826,-122.3360929,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+Second and Seneca Tower,1191 2nd Avenue,Seattle,WA,98101,47.6060061,-122.336716,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+Union Station Parking Garage (#USPG),550 4th Avenue South,Seattle,WA,98134,47.5975078,-122.328595,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+Slalom Hawk Tower,255 S. King Street,Seattle,WA,98104,47.5980919,-122.3309701,J1772,,8.0,,24 hours daily,E,888-998-2546,Blink Network
+531610 Stadium Innovation Center,1531 Utah Avenue South,Seattle,WA,98134,47.5892477,-122.3358112,J1772,,6.0,,24 hours daily,E,888-998-2546,Blink Network
+Union Square - Tesla Supercharger,601 Union Street,Seattle,WA,98101,47.610024,-122.332078,TESLA,,,10.0,6am-12am daily. Please check Tesla's online station map to see if an adapter is required at this location.,E,877-798-3752,Tesla
+CITY LIGHT SOUTH SERVICE 1,409 South Spokane Street,Seattle,WA,98134,47.57121,-122.328762,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+DUAL EV STATION 5,2520 NE University Village St,Seattle,WA,98105,47.663902,-122.300245,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+"Seattle, WA - Union Street (Wall Connector) - Tesla Destination",601 Union St,Seattle,WA,98101,47.610142,-122.331887,J1772 TESLA,,10.0,,,E,877-798-3752,Tesla Destination
+Safeway 35th Ave NE,7340 35Th Ave Ne,Seattle,WA,98115,47.682638,-122.289885,J1772,,2.0,,Mon: 6:00am-11:59pm; Tue: 6:00am-11:59pm; Wed: 6:00am-11:59pm; Thu: 6:00am-11:59pm; Fri: 6:00am-11:59pm; Sat: 6:00am-11:59pm; Sun: 6:00am-11:59pm,E,855-900-7584,SHELL_RECHARGE
+Port of Seattle - Shilshole Bay Marina North Lot,"7001 Seaview Ave, NW #100",Seattle,WA,98117,47.68080494,-122.4048611,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+531611  Amazon Phase VI - Bigness,515 Westlake Avenue North,Seattle,WA,98109,47.6241877,-122.3386584,J1772,,10.0,,24 hours daily,E,888-998-2546,Blink Network
+Bigness,515 Westlake Avenue North,Seattle,WA,98109,47.6241877,-122.3386584,J1772,,9.0,,24 hours daily,E,888-998-2546,Blink Network
+531618  Sidneysea LLC - Brazil,400 9th Avenue North,Seattle,WA,98109,47.6228746,-122.3394194,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+Apollo Eight LLC,325 9th Ave N,Seattle,WA,98104,47.6039634,-122.3241159,J1772,,3.0,,24 hours daily,E,888-998-2546,Blink Network
+CON PL PA WASHBAY,2125 1st Ave,Seattle,WA,98121,47.6122,-122.345117,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BROADWAY BLDG STATION 1,1641 Nagle Pl,Seattle,WA,98122,47.616001,-122.32028,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+600NINTH 600NINTH,600 9th Ave,Seattle,WA,98104,47.605888,-122.324733,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+University of Washington - Husky Stadium,3800 Montlake Blvd NE,Seattle,WA,98195,47.648934,-122.302389,J1772,,2.0,,24 hours daily; UW permit required 6am to 9pm M-F and 7am-12pm on Saturdays; 2 hour time limit,E,206-221-3701,Non-Networked
+University of Washington - Parking Area S1,3500 Columbia Rd,Seattle,WA,98195,47.650072,-122.310852,J1772,,1.0,,24 hours daily; UW permit required; 2 hour time limit,E,206-221-3701,Non-Networked
+University of Washington - Portage Bay Garage,3740 Brooklyn Ave NE,Seattle,WA,98105,47.653047,-122.313915,J1772,,4.0,,24 hours daily; UW permit required; 2 hour time limit,E,206-221-3701,Non-Networked
+University of Washington - Central Plaza Garage,4100 15th Ave NE,Seattle,WA,98105,47.656832,-122.311626,J1772,,5.0,,24 hours daily; UW permit required; 2 hour time limit,E,206-221-3701,Non-Networked
+University of Washington - Parking Area N2,4224 Memorial Way NE,Seattle,WA,98105,47.658987,-122.309214,J1772,,1.0,,24 hours daily; UW permit required; 2 hour time limit,E,206-221-3701,Non-Networked
+University of Washington - Parking Area N5,4324 Memorial Way NE,Seattle,WA,98105,47.660311,-122.309086,J1772,,1.0,,24 hours daily; parking permit required; 2 hour time limit,E,206-221-3701,Non-Networked
+University of Washington - Parking Area W46,4317 12th Ave NE,Seattle,WA,98105,47.660696,-122.315595,J1772,,2.0,,24 hours daily; UW permit required; 2 hour time limit,E,206-221-3701,Non-Networked
+VBG Seattle,901 Fifth Ave,Seattle,WA,98164,47.60578,-122.331858,J1772,,2.0,,24 hours daily,E,888-998-2546,Blink Network
+KC AIRPORT KC AIRPORT 2,7259 King County Airport Access Rd,Seattle,WA,98108,47.536812,-122.303923,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KING COUNTY DES KC FAUNTLEROY3,4829 SW Barton St,Seattle,WA,98136,47.523218,-122.393376,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KING COUNTY DES KC FAUNTLEROY2,4829 SW Barton St,Seattle,WA,98136,47.523056,-122.395735,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 150 151N,583 Battery St,Seattle,WA,98164,47.606202,-122.33208,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 144 145N,583 Battery St,Seattle,WA,98104,47.606184,-122.332135,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Tellus on Dexter Apartments,403 Dexter Ave N.,Seattle,WA,98109,47.622505,-122.34279,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+CITY LIGHT WEST SEATTLE 1,4535 39th Avenue Southwest,Seattle,WA,98116,47.562261,-122.381633,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+2+U - Tesla Supercharger,1201 Second Avenue,Seattle,WA,98101,47.606601,-122.337495,TESLA,,,4.0,24 hours daily. Please check Tesla's online station map to see if an adapter is required at this location.,E,877-798-3752,Tesla
+"Rainier Beach WA3-155 ( Seattle, WA)",9019 RAINIER AVE S,Seattle,WA,98118,47.52317,-122.27056,CHADEMO J1772COMBO,,,4.0,24 hours daily,E,833-632-2778,Electrify America
+Ballard Blocks - Tesla Supercharger,1416 NW Ballard Way,Seattle,WA,98107,47.662554,-122.37504,TESLA,,,8.0,24 hours daily. Please check Tesla's online station map to see if an adapter is required at this location.,E,877-798-3752,Tesla
+2+U,1201 Second Ave,Seattle,WA,98101,47.606659,-122.337363,J1772,,10.0,,5am-6pm daily,E,206-706-9600,Non-Networked
+SAFECO PLAZA SAFECO PLAZA #2,1001 4th Ave Safeco Plaza,Seattle,WA,98154,47.606218,-122.333842,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+400 DEXTER AVE 400 DEXTER #2,400 Dexter Ave N,Seattle,WA,98109,47.622329,-122.342153,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+VM CHARGERS VIRGINIA MASON3,1012 Terry Ave,Seattle,WA,98101,47.609553,-122.326337,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+VM CHARGERS VIRGINIA MASON1,1012 Terry Ave,Seattle,WA,98101,47.609501,-122.326457,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+MADISON GARAGE MADISON GARAGE1,1229 Madison St,Seattle,WA,98104,47.61008,-122.322151,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 97 98,588 Bell St,Seattle,WA,98121,47.616729,-122.342786,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 214 215,588 Bell St,Seattle,WA,98121,47.616629,-122.342611,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 136 137,588 Bell St,Seattle,WA,98121,47.616703,-122.342746,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 95 96,588 Bell St,Seattle,WA,98121,47.616701,-122.342813,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 134 135,588 Bell St,Seattle,WA,98121,47.616676,-122.342772,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 180 181,588 Bell St,Seattle,WA,98121,47.616608,-122.342771,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 174 175,588 Bell St,Seattle,WA,98121,47.616642,-122.34273,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 142 143,588 Bell St,Seattle,WA,98121,47.616646,-122.3428,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 178 179,588 Bell St,Seattle,WA,98121,47.61659,-122.342801,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 212 213,588 Bell St,Seattle,WA,98121,47.616588,-122.342651,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 218 219,588 Bell St,Seattle,WA,98121,47.616537,-122.342701,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 140 141,588 Bell St,Seattle,WA,98121,47.616616,-122.342831,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 103 104,588 Bell St,Seattle,WA,98121,47.616679,-122.342837,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 101 102,588 Bell St,Seattle,WA,98121,47.616655,-122.34286,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KING COUNTY DES KSC STATION #6,201 S Jackson St,Seattle,WA,98104,47.598754,-122.331002,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KING COUNTY DES KSC STATION #7,201 S Jackson St,Seattle,WA,98104,47.598758,-122.330972,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KING COUNTY DES KSC STATION #3,201 S Jackson St,Seattle,WA,98104,47.59856,-122.330929,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KING COUNTY DES KSC STATION #2,201 S Jackson St,Seattle,WA,98104,47.59855,-122.331009,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KING COUNTY DES KSC STATION #4,201 S Jackson St,Seattle,WA,98104,47.598665,-122.330941,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+DC CORRIDOR SEAHAWK 12D,338 Weller St Bridge,Seattle,WA,98134,47.597048,-122.330451,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+DC CORRIDOR SEAHAWK 12C,338 Weller St Bridge,Seattle,WA,98134,47.597218,-122.330446,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+1101 WESTLAKE WESTLAKE 1,1101 Westlake Ave N,Seattle,WA,98109,47.628886,-122.341407,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+UWMC SURGERY STATION 1,1959 NE Pacific St,Seattle,WA,98195,47.64991,-122.307373,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BMGF P1 STATION 1,500 5th Ave N,Seattle,WA,98109,47.623464,-122.345818,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 190 191N,583 Battery St,Seattle,WA,98121,47.616928,-122.343611,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+T-MOBILE PARK ICHIRO,1518 1st Ave S,Seattle,WA,98134,47.589652,-122.332938,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+T-MOBILE PARK FELIX,1518 1st Ave S,Seattle,WA,98134,47.589803,-122.332999,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+T-MOBILE PARK EDGAR,1518 1st Ave S,Seattle,WA,98134,47.589701,-122.332937,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+188 BLAINE ATRIUM2,1818 Fairview Ave East,Seattle,WA,98102,47.635115,-122.325799,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+DUAL EV STATION 3,2520 NE University Village St,Seattle,WA,98105,47.66392,-122.300272,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+DUAL EV STATION 4,2520 NE University Village St,Seattle,WA,98105,47.663931,-122.300224,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+DUAL EV STATION 2,2520 NE University Village St,Seattle,WA,98105,47.663935,-122.300285,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+DUAL EV STATION 1,2520 NE University Village St,Seattle,WA,98105,47.663975,-122.300272,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KC AIRPORT KC AIRPORT 1,7259 King County Airport Access Rd,Seattle,WA,98108,47.53681,-122.303923,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 146 147N,583 Battery St,Seattle,WA,98164,47.606191,-122.3321,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 228 229N,583 Battery St,Seattle,WA,98164,47.606129,-122.332106,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 192 193N,583 Battery St,Seattle,WA,98164,47.606171,-122.332083,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 152 153N,583 Battery St,Seattle,WA,98164,47.606211,-122.332055,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 226 227N,583 Battery St,Seattle,WA,98164,47.606119,-122.332135,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 186 187N,583 Battery St,Seattle,WA,98164,47.60614,-122.332163,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 232 233N,583 Battery St,Seattle,WA,98164,47.606148,-122.332065,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 234N,583 Battery St,Seattle,WA,98164,47.606155,-122.332037,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 185N,583 Battery St,Seattle,WA,98164,47.606126,-122.332195,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 194N,583 Battery St,Seattle,WA,98164,47.606182,-122.33206,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 225N,583 Battery St,Seattle,WA,98164,47.606111,-122.332163,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 143N,583 Battery St,Seattle,WA,98104,47.606162,-122.332173,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+INSIGNIA 953 188 189N,583 Battery St,Seattle,WA,98104,47.606153,-122.332134,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+188 BLAINE ATRIUM #1,1818 Fairview Ave East,Seattle,WA,98102,47.635108,-122.325721,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+ALLEN INSTITUTE NORTH,615 Westlake Ave N,Seattle,WA,98109,47.625256,-122.339032,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Northgate Mall - Tesla Supercharger,401 NE Northgate Way,Seattle,WA,98125,47.706589,-122.327778,TESLA,,,16.0,24 hours daily. Please check Tesla's online station map to see if an adapter is required at this location.,E,877-798-3752,Tesla
+"Madison Pike WA3-141 ( Seattle, WA)",1300 E MADISON ST,Seattle,WA,98122,47.61388,-122.31477,J1772COMBO,,,4.0,24 hours daily,E,833-632-2778,Electrify America
+"BoA Georgetown WA3-129 (Seattle, WA)",1112 S BAILEY ST,Seattle,WA,98108,47.54795,-122.31837,CHADEMO J1772COMBO,,,4.0,24 hours daily,E,833-632-2778,Electrify America
+Alley 24 East,221 Yale Avenue North,Seattle,WA,98109,47.620214,-122.330658,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+SAINT MARK'S SAINT MARKS,1245 10th Ave E,Seattle,WA,98102,47.63173,-122.32099,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Safeway Market Street,1423 NW Market Street,Seattle,WA,98107,47.668353,-122.374961,J1772,,2.0,,Mon: 6:00am-11:59pm; Tue: 6:00am-11:59pm; Wed: 6:00am-11:59pm; Thu: 6:00am-11:59pm; Fri: 6:00am-11:59pm; Sat: 6:00am-11:59pm; Sun: 6:00am-11:59pm,E,855-900-7584,SHELL_RECHARGE
+Harvard Market,1425 Broadway,Seattle,WA,98122,47.613498,-122.320931,J1772,,2.0,,24 hours daily,E,888-998-2546,Blink Network
+DC CORRIDOR ZOO OTTER L2-S1,601 N 59th St,Seattle,WA,98103,47.670285,-122.353765,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+DC CORRIDOR ZOO OTTER L2-D2,601 N 59th St,Seattle,WA,98103,47.670287,-122.353696,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+DC CORRIDOR ZOO OTTER L2-D1,601 N 59th St,Seattle,WA,98103,47.670292,-122.353627,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+"BoA Queen Anne WA3-154 (Seattle, WA)",100 W MERCER ST,Seattle,WA,98119,47.62482,-122.35829,J1772COMBO,,,3.0,24 hours daily,E,833-632-2778,Electrify America
+SMT Garage -700 5th Ave Seattle,700 5th Ave,Seattle,WA,98104,47.60521,-122.32972,J1772,,6.0,,24 hours daily,E,855-885-9571,OpConnect
+SMT Garage - 700 5th Ave Seattle- DC Fast Charger,700 5th Ave N,Seattle,WA,98104,47.62606,-122.349,J1772,,1.0,,24 hours daily,E,855-885-9571,OpConnect
+SEA41 SEA41 - 1,2133 7th Ave,Seattle,WA,98119,47.616159,-122.340064,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40 - 5,2021 7th Ave,Seattle,WA,98121,47.615052,-122.338336,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40 - 6,2021 7th Ave,Seattle,WA,98121,47.614986,-122.338444,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40 - 3,2021 7th Ave,Seattle,WA,98121,47.61554,-122.338778,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40 - 4,2021 7th Ave,Seattle,WA,98121,47.615059,-122.338454,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40 - 2,2021 7th Ave,Seattle,WA,98121,47.615399,-122.338834,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40 - 1,2021 7th Ave,Seattle,WA,98121,47.615489,-122.338786,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 4,2121 7th Ave,Seattle,WA,98121,47.616253,-122.340184,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 3,2121 7th Ave,Seattle,WA,98121,47.616246,-122.340184,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 6,2121 7th Ave,Seattle,WA,98121,47.616231,-122.340205,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 2,2121 7th Ave,Seattle,WA,98121,47.616129,-122.340052,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 5,2121 7th Ave,Seattle,WA,98121,47.616224,-122.340227,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26 - 1,550 Terry Ave N,Seattle,WA,98109,47.623336,-122.336584,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26 - 2,550 Terry Ave N,Seattle,WA,98109,47.62334,-122.336589,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26 3,550 Terry Ave N,Seattle,WA,98109,47.623333,-122.336648,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26 - 4,550 Terry Ave N,Seattle,WA,98109,47.623327,-122.336677,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA24 01,500 Boren Ave N.,Seattle,WA,98109,47.623442,-122.335352,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA24 02,500 Boren Ave N,Seattle,WA,98109,47.623537,-122.335474,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 001,440 Terry Ave N,Seattle,WA,98109,47.622775,-122.336355,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 002,440 Terry Ave N,Seattle,WA,98109,47.622775,-122.336346,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 003,440 Terry Ave N,Seattle,WA,98109,47.623014,-122.336611,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA27 28 SEA27-28 P4 001,345 Boren Ave N,Seattle,WA,98109,47.621746,-122.336402,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27-28 P4 002,345 Boren Ave N,Seattle,WA,98109,47.621821,-122.33637,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA27 28 SEA27 28 P4 003,345 Boren Ave N,Seattle,WA,98109,47.621851,-122.336423,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29 - 1,207 Boren Ave N,Seattle,WA,98109,47.620496,-122.33622,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29 - 2,207 Boren Ave N,Seattle,WA,98109,47.620275,-122.336253,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29 - 4,207 Boren Ave N,Seattle,WA,98109,47.620392,-122.336265,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29 - 3,207 Boren Ave N,Seattle,WA,98109,47.620267,-122.336259,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29 - 5,207 Boren Ave,Seattle,WA,98109,47.62036,-122.336252,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA23 P1 001,535 Terry Ave N,Seattle,WA,98109,47.623917,-122.337695,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 7,2121 8th Ave,Seattle,WA,98121,47.61664,-122.338877,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 1,2121 8th Ave,Seattle,WA,98121,47.61669,-122.338963,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 9,2121 8th Ave,Seattle,WA,98121,47.616677,-122.339024,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 8,2121 8th Ave,Seattle,WA,98121,47.616684,-122.339013,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 3,2121 8th Ave,Seattle,WA,98121,47.616676,-122.338931,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 4,2121 8th Ave,Seattle,WA,98121,47.61669,-122.338985,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 10,2121 8th Ave,Seattle,WA,98121,47.616684,-122.33897,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 2,2121 8th Ave,Seattle,WA,98121,47.616712,-122.33907,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 6,2121 8th Ave,Seattle,WA,98121,47.616632,-122.338942,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 5,2121 8th Ave,Seattle,WA,98121,47.616654,-122.338888,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 5,2250 7th Ave,Seattle,WA,98121,47.61751,-122.340955,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 2,2250 7th Ave,Seattle,WA,98121,47.617088,-122.339838,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 7,2250 7th Ave,Seattle,WA,98121,47.61751,-122.34093,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 6,2250 7th Ave,Seattle,WA,98121,47.617528,-122.340928,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 3,2250 7th Ave,Seattle,WA,98121,47.617167,-122.33982,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 4,2250 7th Ave,Seattle,WA,98121,47.617495,-122.340974,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 1,2250 7th Ave,Seattle,WA,98121,47.617111,-122.339836,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44 - 2,2205 7th Ave,Seattle,WA,98121,47.617264,-122.340534,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44 - 3,2205 7th Ave,Seattle,WA,98121,47.617287,-122.340505,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44 - 4,2205 7th Ave,Seattle,WA,98121,47.617307,-122.340479,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44 - 1,2205 7th Ave,Seattle,WA,98121,47.617228,-122.340588,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+The Century Apartments - Retail Parking,101 Taylor Ave N,Seattle,WA,98109,47.618918,-122.346874,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+The Century Apartments - Residential Parking,101 Taylor Ave N,Seattle,WA,98109,47.619488,-122.346886,J1772,,6.0,,24 hours daily,E,888-998-2546,Blink Network
+HUB Garage,19235 International Boulevard,Seattle,WA,98188,47.43001676,-122.2961501,J1772,,44.0,,24 hours daily,E,888-998-2546,Blink Network
+Queen Anne Square,200 West Mercer Street,Seattle,WA,98119,47.6246042,-122.3593182,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+Washington State Convention Center Parking Garage,705 Pike ST,Seattle,WA,98101,47.611378281765,-122.3314401402,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+531616 - Marion & Minor Garage,1101 Madison Street,Seattle,WA,98104,47.6091997,-122.3241094,J1772,,6.0,,24 hours daily,E,888-998-2546,Blink Network
+450 Alaskan Garage,450 Alaskan Way,Seattle,WA,98104,47.5987016,-122.3351902,J1772,,3.0,,24 hours daily,E,888-998-2546,Blink Network
+"Port of Seattle, Fishermen's Terminal, West Wall BLDG",4005 20th Avenue West,Seattle,WA,98199,47.65588111,-122.3827633,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+531613 - 1000-1100 Dexter Avenue N,1000 Dexter Avenue North,Seattle,WA,98109,47.6283848,-122.3418983,J1772,,8.0,,24 hours daily,E,888-998-2546,Blink Network
+Sidneysea LLC - Brazil,400 9th Avenue North,Seattle,WA,98109,47.6228746,-122.3394194,J1772,,3.0,,24 hours daily,E,888-998-2546,Blink Network
+505 First Garage,505 1st Avenue South,Seattle,WA,98104,47.5974244,-122.3347174,J1772,,16.0,,24 hours daily,E,888-998-2546,Blink Network
+1007 Stewart Street/ service decline,1007 Stewart Street,Seattle,WA,98101,47.6163395,-122.3330877,J1772,,1.0,,24 hours daily,E,888-998-2546,Blink Network
+"531603 701 Pike Street (Seattle), LLC",701 Pike Street,Seattle,WA,98101,47.6115019,-122.3329014,J1772,,6.0,,24 hours daily,E,888-998-2546,Blink Network
+The Corydon,"5101 25th Ave NE,",Seattle,WA,98105,47.618848,-122.3467506,J1772,,2.0,,24 hours daily,E,888-998-2546,Blink Network
+Waterfront Place,1011 Western Avenue,Seattle,WA,98104,47.6044756,-122.3378981,J1772,,1.0,,24 hours daily,E,888-998-2546,Blink Network
+CPA STATION 10,305 Thomas St,Seattle,WA,98109,47.621409,-122.353711,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CPA STATION 4,305 Thomas St,Seattle,WA,98109,47.621311,-122.353622,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CPA STATION 3,305 Thomas St,Seattle,WA,98109,47.621313,-122.353652,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CPA STATION 12,305 Thomas St,Seattle,WA,98109,47.621413,-122.353638,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CPA STATION 8,305 Thomas St,Seattle,WA,98109,47.621376,-122.353648,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CPA STATION 11,305 Thomas St,Seattle,WA,98109,47.621411,-122.353676,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CPA STATION 5,305 Thomas St,Seattle,WA,98109,47.621312,-122.353589,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CPA STATION 7,305 Thomas St,Seattle,WA,98109,47.621377,-122.353675,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CPA STATION 6,305 Thomas St,Seattle,WA,98109,47.621377,-122.353708,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CPA STATION 2,305 Thomas St,Seattle,WA,98109,47.621309,-122.353679,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CPA STATION 9,305 Thomas St,Seattle,WA,98109,47.621378,-122.35362,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+"QFC 807 (Seattle, WA)",2746 NE 45th St,Seattle,WA,98105,47.66149,-122.29641,J1772COMBO,,,4.0,24 hours daily,E,833-632-2778,Electrify America
+THE OLIVIAN OLIVIAN #1,809 Olive Way,Seattle,WA,98101,47.614104,-122.33319,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+THE OLIVIAN OLIVIAN #2,809 Olive Way,Seattle,WA,98101,47.614112,-122.333147,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+"FRED MEYER 608 (Ballard, WA)",915 NW 45th Street,Seattle,WA,98107,47.6594,-122.36947,J1772COMBO,,,3.0,24 hours daily,E,833-632-2778,Electrify America
+BUTLER GARAGE BUTLER EV #1,611 2nd Ave,Seattle,WA,98104,47.602544,-122.33301,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BUTLER GARAGE BUTLER EV #2,611 2nd Ave,Seattle,WA,98104,47.602553,-122.332883,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+City of Seattle 1010 8th Ave,1010 8th Ave South,Seattle,WA,98134,47.593975,-122.324221,J1772,,2.0,,24 hours daily,E,855-885-9571,OpConnect
+REN DENNY CTR1,2014 Fairview Ave,Seattle,WA,98121,47.618226,-122.333907,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+REN DENNY CTR2,2014 Fairview Ave,Seattle,WA,98121,47.61823,-122.33392,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+REN DENNY CTR3,2014 Fairview Ave,Seattle,WA,98121,47.618233,-122.33391,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+REN DENNY CTR4,2014 Fairview Ave,Seattle,WA,98121,47.618223,-122.334017,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+REN DENNY CTR5,2014 Fairview Ave,Seattle,WA,98121,47.618246,-122.333948,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+REN DENNY CTR6,2014 Fairview Ave,Seattle,WA,98121,47.618237,-122.33389,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+REN DENNY CTR7,2014 Fairview Ave,Seattle,WA,98121,47.618244,-122.33387,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+REN DENNY CTR8,2014 Fairview Ave,Seattle,WA,98121,47.61824,-122.333855,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+525 NORTHGATE RETAIL #2,525 NE Northgate Way,Seattle,WA,98125,47.707867,-122.321702,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+"Fred Meyer 179 (Seattle, WA)",13000 Lake City Way NE,Seattle,WA,98125,47.72305,-122.29212,CHADEMO J1772COMBO,,,4.0,24 hours daily,E,833-632-2778,Electrify America
+Port of Seattle - Shilshole Bay Marina South Lot,7001 Seaview Avenue Northwest,Seattle,WA,98117,47.6807529,-122.4047949,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+525 NORTHGATE RESIDENTIAL #2,525 NE Northgate Way,Seattle,WA,98125,47.70779,-122.321726,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+525 NORTHGATE RESIDENTIAL #1,525 NE Northgate Way,Seattle,WA,98125,47.707814,-122.321637,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+PRISM STATIONS PRISM STATION 2,10711 8th Ave NE,Seattle,WA,98125,47.706929,-122.320888,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+PRISM STATIONS PRISM STATION 1,10711 8th Ave NE,Seattle,WA,98125,47.706948,-122.320856,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT MADISON MILLER1,2113 East Olive Street,Seattle,WA,98122,47.617082,-122.304055,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+DC CORRIDOR SCC GTOWN L2-1,6701 Corson Ave S,Seattle,WA,98108,47.542276,-122.324533,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BMGF P2 STATION 6,500 5th Ave N,Seattle,WA,98109,47.623302,-122.345789,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BMGF P1 STATION 3,500 5th Ave N,Seattle,WA,98109,47.623345,-122.345853,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BMGF P1 STATION 5,500 5th Ave N,Seattle,WA,98109,47.623274,-122.345984,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BMGF P1 STATION 4,500 5th Ave N,Seattle,WA,98109,47.623307,-122.345933,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BMGF P2 STATION 8,500 5th Ave N,Seattle,WA,98109,47.623224,-122.345917,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BMGF P2 STATION 7,500 5th Ave N,Seattle,WA,98109,47.62326,-122.345845,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Stadium Place,520 Occidental Avenue South,Seattle,WA,98134,47.5977415,-122.3329233,J1772,,12.0,,24 hours daily,E,888-998-2546,Blink Network
+The Lyric,215 10th Avenue East,Seattle,WA,98102,47.6206301,-122.3198568,J1772,,6.0,,24 hours daily,E,888-998-2546,Blink Network
+PIKE PLACE STALL 895 & 894,1901 Western Ave,Seattle,WA,98101,47.609487,-122.342908,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+LAWRENCE LOFTS LL COMMERCIAL,1818 E Madison St,Seattle,WA,98122,47.616857,-122.307818,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+2600 Elliott Garage,2600 Elliott Avenue,Seattle,WA,98121,47.614387,-122.35162200000002,J1772,,2.0,,24 hours daily,E,888-998-2546,Blink Network
+Harborview Medical Center,908 Jefferson,Seattle,WA,98104,47.605477,-122.323427,J1772,,6.0,,24 hours daily,E,888-998-2546,Blink Network
+REI,222 Yale Ave,Seattle,WA,98109,47.62066,-122.32952,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,877-455-3833,eVgo Network
+Interbay Business Center,1600 West Armory Way,Seattle,WA,98119,47.63986,-122.377668,CHADEMO J1772COMBO,,,4.0,24 hours daily,E,877-455-3833,eVgo Network
+"ARE-Seattle No. 12, LLC",1165 Elake Ave E,Seattle,WA,98109,47.25033,-122.18104,J1772,,2.0,,Contact station for hours of availability,E,833-692-6787,AMPUP
+Hilton Seattle Airport,17620 International Blvd,Seattle,WA,98188,47.444398,-122.29516,J1772,,2.0,,24 hours daily,E,866-816-7584,EV Connect
+SEA41 SEA41-7,2121 7th Ave,Seattle,WA,98121,47.616076,-122.339828,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-10,2121 7th Ave,Seattle,WA,98121,47.616069,-122.339836,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-9,2121 7th Ave,Seattle,WA,98121,47.616081,-122.339836,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-21,2121 7th Ave,Seattle,WA,98121,47.616062,-122.339797,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-22,2121 7th Ave,Seattle,WA,98121,47.616069,-122.339786,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-23,2121 7th Ave,Seattle,WA,98121,47.616069,-122.339818,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-17,2121 7th Ave,Seattle,WA,98121,47.616026,-122.339818,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-16,2121 7th Ave,Seattle,WA,98121,47.616069,-122.339882,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-24,2121 7th Ave,Seattle,WA,98121,47.616062,-122.339845,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-19,2121 7th Ave,Seattle,WA,98121,47.616055,-122.339829,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-20,2121 7th Ave,Seattle,WA,98121,47.616055,-122.33985,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-12,2121 7th Ave,Seattle,WA,98121,47.616071,-122.339854,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-11,2121 7th Ave,Seattle,WA,98121,47.616083,-122.33985,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-14,2121 7th Ave,Seattle,WA,98121,47.616082,-122.339821,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-15,2121 7th Ave,Seattle,WA,98121,47.616076,-122.339754,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42-17,2100 7th Ave,Seattle,WA,98119,47.616259,-122.338853,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42-15,2100 7th Ave,Seattle,WA,98119,47.616265,-122.338863,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42-16,2100 7th Ave,Seattle,WA,98119,47.616277,-122.338872,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42-18,2100 7th Ave,Seattle,WA,98119,47.616259,-122.338839,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42-13,2100 7th Ave,Seattle,WA,98119,47.616276,-122.338848,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42-12,2100 7th Ave,Seattle,WA,98119,47.616271,-122.338868,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42-14,2100 7th Ave,Seattle,WA,98119,47.61628,-122.338861,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-8,2121 7th Ave,Seattle,WA,98121,47.616076,-122.339844,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41-13,2121 7th Ave,Seattle,WA,98121,47.61607,-122.339824,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-7,2021 7th Ave,Seattle,WA,98121,47.615307,-122.338225,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-9,2021 7th Ave,Seattle,WA,98121,47.615314,-122.338234,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-13,2021 7th Ave,Seattle,WA,98121,47.61532,-122.338246,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-11,2021 7th Ave,Seattle,WA,98121,47.615305,-122.338215,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-10,2021 7th Ave,Seattle,WA,98121,47.615303,-122.338242,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-8,2021 7th Ave,Seattle,WA,98121,47.615311,-122.338245,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-12,2021 7th Ave,Seattle,WA,98121,47.615297,-122.338221,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44-5,2205 7th Ave,Seattle,WA,98121,47.616662,-122.340786,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44-7,2205 7th Ave,Seattle,WA,98121,47.616653,-122.340794,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44-6,2205 7th Ave,Seattle,WA,98121,47.616663,-122.340804,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44-9,2205 7th Ave,Seattle,WA,98121,47.616663,-122.340794,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Lumen Field Parking Garage,300 S Royal Brougham Way,Seattle,WA,98104,47.5926384626354,-122.330869270063,J1772 TESLA,,2.0,,6am-11pm daily,E,206-381-7555,Non-Networked
+Puget Sound Solar,805 Rainier Ave S,Seattle,WA,98144,47.5955737030563,-122.311841805333,J1772,,5.0,,24 hours daily,E,206-706-1931,Non-Networked
+800 Fifth Avenue Parking Garage,800 5th Ave,Seattle,WA,98104,47.6054544002366,-122.330085418863,J1772,,1.0,,24 hours daily,E,206-621-9172,Non-Networked
+US Bank Center Garage,1465 6th Ave,Seattle,WA,98101,47.610826048907,-122.334346934116,J1772,,6.0,,24 hours daily,E,206-223-4070,Non-Networked
+University of Washington - Parking Area W40,814 NE Northlake Pl,Seattle,WA,98105,47.6548806651459,-122.319211227533,J1772,,4.0,,24 hours daily,E,206-221-3701,Non-Networked
+University of Washington - Parking Lot N22,4060 E Stevens Way NE,Seattle,WA,98195,47.6560149395404,-122.305003488076,J1772,,5.0,,24 hours daily,E,206-221-3701,Non-Networked
+Union Bay Plaza,4516 Union Bay Pl NE,Seattle,WA,98105,47.6619766883491,-122.293346008603,J1772,,5.0,,24 hours daily,E,,Non-Networked
+BMR DEXTER DEXTER YARD-S1,700 Dexter Ave N,Seattle,WA,98109,47.625918,-122.342192,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BMR DEXTER DEXTER YARD-S4,700 Dexter Ave N,Seattle,WA,98109,47.625918,-122.342192,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+VOLVO CAR USA SEATTLE DC1,1st Ave S & S Stacy St,Seattle,WA,98134,47.5816,-122.334883,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+VOLVO CAR USA SEATTLE DC2,1st Ave S & S Stacy St,Seattle,WA,98134,47.581601,-122.334848,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+VOLVO CAR USA SEATTLE DC3,1st Ave S & S Stacy St,Seattle,WA,98134,47.5816,-122.33481,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+VOLVO CAR USA SEATTLE DC4,1st Ave S & S Stacy St,Seattle,WA,98134,47.581595,-122.334777,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+1800 Ninth Building,1800 9th Ave,Seattle,WA,98101,47.615249,-122.3332564,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+Columbia Center Tower,701 5th Ave,Seattle,WA,98104,47.604817,-122.330568,J1772,,8.0,,24 hours daily,E,888-998-2546,Blink Network
+Walgreens at 4412 Rainier Ave Seattle,4412 Rainier Ave S,Seattle,WA,98118,47.563966,-122.287468,J1772,,2.0,,Mon: 8:00am-11:59pm; Tue: 8:00am-11:59pm; Wed: 8:00am-11:59pm; Thu: 8:00am-11:59pm; Fri: 8:00am-11:59pm; Sat: 8:00am-11:59pm; Sun: 8:00am-11:59pm,E,855-900-7584,SHELL_RECHARGE
+Safeway 4011 S 164th,4011 S 164th,Seattle,WA,98188,47.45568,-122.281965,J1772,,2.0,,Mon: 6:00am-11:59pm; Tue: 6:00am-11:59pm; Wed: 6:00am-11:59pm; Thu: 6:00am-11:59pm; Fri: 6:00am-11:59pm; Sat: 6:00am-11:59pm; Sun: 6:00am-11:59pm,E,855-900-7584,SHELL_RECHARGE
+SCC SUMMIT SCC SUMMIT #1,1009 Olive Way,Seattle,WA,98101,47.615003,-122.331809,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SCC SUMMIT SCC SUMMIT #3,1009 Olive Way,Seattle,WA,98101,47.61488,-122.331476,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SCC SUMMIT SCC SUMMIT #2,1009 Olive Way,Seattle,WA,98101,47.614938,-122.331583,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SCC SUMMIT SCC SUMMIT #4,1009 Olive Way,Seattle,WA,98101,47.614938,-122.331508,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT PORTAGE BAY 2,2915 Fuhrman Avenue East,Seattle,WA,98102,47.647302,-122.317513,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Arrive Noba Apartments,8022 15th Avenue Northwest,Seattle,WA,98117,47.6874796,-122.3763969,J1772,,1.0,,24 hours daily,E,888-998-2546,Blink Network
+SEA29 SEA29 - 6,207 Boren Ave N,Seattle,WA,98109,47.620085,-122.336021,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BMR DEXTER DEXTER YARD-S2,700 Dexter Ave N,Seattle,WA,98109,47.625918,-122.342192,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BMR DEXTER DEXTER YARD-S5,700 Dexter Ave N,Seattle,WA,98109,47.625918,-122.342192,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BMR DEXTER DEXTER YARD-S3,700 Dexter Ave N,Seattle,WA,98109,47.625918,-122.342192,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26-5,551 Boren Ave N,Seattle,WA,98109,47.624088,-122.336144,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26-6,551 Boren Ave N,Seattle,WA,98109,47.624117,-122.336165,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26-7,551 Boren Ave N,Seattle,WA,98109,47.624108,-122.33611,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26-8,551 Boren Ave N,Seattle,WA,98109,47.624088,-122.336176,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26-9,551 Boren Ave N,Seattle,WA,98109,47.624137,-122.336153,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26-10,551 Boren Ave N,Seattle,WA,98109,47.624035,-122.336045,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26- 11,551 Boren Ave N,Seattle,WA,98109,47.624014,-122.336271,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA24 03,510 Boren Ave N,Seattle,WA,98109,47.624139,-122.335419,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA24 07,510 Boren Ave N,Seattle,WA,98109,47.623947,-122.335413,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA24 06,500 Boren Ave N,Seattle,WA,98109,47.624,-122.335571,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA24 08,500 Boren Ave N,Seattle,WA,98109,47.623978,-122.335571,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA24 05,512 Boren Ave N,Seattle,WA,98109,47.623864,-122.335662,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA24 04,526 Boren Ave N,Seattle,WA,98109,47.62398,-122.335809,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29 - 7,207 Boren Ave,Seattle,WA,98109,47.620482,-122.336253,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29 - 9,207 Boren Ave,Seattle,WA,98109,47.62044,-122.336175,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29 - 8,207 Boren Ave N,Seattle,WA,98109,47.620199,-122.336167,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA23 - 3,535 Terry Ave N,Seattle,WA,98109,47.623798,-122.337642,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA23-2,535 Terry Ave N,Seattle,WA,98109,47.623911,-122.337694,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27-28 P4 004,333 Boren Ave N,Seattle,WA,98109,47.621364,-122.336317,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27-28 P4 005,333 Boren Ave N,Seattle,WA,98109,47.621341,-122.336351,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+NRV NORTHGATE,10202 3rd Ave NE,Seattle,WA,98125,47.702793,-122.32588,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 18,2250 7th Ave,Seattle,WA,98121,47.617519,-122.340205,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 12,2250 7th Ave,Seattle,WA,98121,47.617496,-122.340242,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 15,2250 7th Ave,Seattle,WA,98121,47.617506,-122.340219,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 19,2250 7th Ave,Seattle,WA,98121,47.617525,-122.340196,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 16,2250 7th Ave,Seattle,WA,98121,47.61751,-122.340215,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 13,2250 7th Ave,Seattle,WA,98121,47.6175,-122.340235,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 14,2250 7th Ave,Seattle,WA,98121,47.617505,-122.340227,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 10,2250 7th Ave,Seattle,WA,98121,47.617454,-122.34029,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 8,2250 7th Ave,Seattle,WA,98121,47.617405,-122.340395,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 11,2250 7th Ave,Seattle,WA,98121,47.617498,-122.340269,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 17,2250 7th Ave,Seattle,WA,98121,47.617439,-122.340315,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 9,2250 7th Ave,Seattle,WA,98121,47.617425,-122.340333,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+GILEAD SEATTLE GILEAD SEA 2,199 E Blaine St,Seattle,WA,98102,47.634499,-122.326277,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+GILEAD SEATTLE GILEAD SEA 3,199 E Blaine St,Seattle,WA,98102,47.634528,-122.326341,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+GILEAD SEATTLE GILEAD SEA 1,199 E Blaine St,Seattle,WA,98102,47.634499,-122.326374,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT CENTRAL 1,241 Martin Luther King Junior Way South,Seattle,WA,98144,47.600184,-122.297277,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+"531612  PRISA Market Place Tower WA, LLC c/o CBRE",2025 1st Avenue,Seattle,WA,98121,47.6113722,-122.343703,J1772,,6.0,,24 hours daily,E,888-998-2546,Blink Network
+(Public P1) Commons at Ballard,5621 22nd Avenue Northwest,Seattle,WA,98107,47.66981,-122.38494,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+431608  AVA Queen Anne,330 3rd Avenue West,Seattle,WA,98119,47.6215389,-122.3602985,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+431603  AVA Capitol Hill,1530 Belmont Avenue,Seattle,WA,98122,47.6148399,-122.3241666,J1772,,8.0,,24 hours daily,E,888-998-2546,Blink Network
+Arbor Blocks,300 8th Ave N,Seattle,WA,98109,47.6212984,-122.3407408,J1772,,1.0,,24 hours daily,E,888-998-2546,Blink Network
+Thrive,1222 East Madison Street,Seattle,WA,98122,47.61360885799295,-122.31579498724822,J1772,,2.0,,Mon: 8:00am-9:00pm; Tue: 8:00am-9:00pm; Wed: 8:00am-9:00pm; Thu: 8:00am-9:00pm; Fri: 8:00am-10:00pm; Sat: 8:00am-10:00pm; Sun: 8:00am-9:00pm,E,888-998-2546,Blink Network
+Willow Crossing,6901 Martin Luther King Junior Way South,Seattle,WA,98118,47.68187212,-122.2630512,J1772,,2.0,,24 hours daily,E,888-998-2546,Blink Network
+Seola Gardens,11195 5th Avenue Southwest,Seattle,WA,98146,47.502354,-122.34112,J1772,,1.0,,24 hours daily,E,888-998-2546,Blink Network
+Broadstone Strata,4906 25th Avenue Northeast,Seattle,WA,98105,47.664513531216464,-122.30001030443889,J1772,,14.0,,24 hours daily,E,888-998-2546,Blink Network
+AMZ SEA20-22 005,442 Terry Ave N,Seattle,WA,98109,47.622867,-122.336753,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Fremont Village Square,3601 Fremont Ave N,Seattle,WA,98103,47.651792,-122.3529158,J1772,,2.0,,24 hours daily,E,888-356-8911,FLO
+1700 Seventh,"1700 7th Avenue, Suite 1800",Seattle,WA,98101,47.614019,-122.335273,J1772,,7.0,,Mon: 6:00am-9:00pm; Tue: 6:00am-9:00pm; Wed: 6:00am-9:00pm; Thu: 6:00am-9:00pm; Fri: 6:00am-9:00pm; Sat: 9:00am-9:00pm; Sun: 9:00am-9:00pm,E,888-998-2546,Blink Network
+AMZ SEA27-28 P6 007,345 Boren Ave N,Seattle,WA,98109,47.621558,-122.336929,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27-28 P3 012,345 Boren Ave N,Seattle,WA,98109,47.621611,-122.336961,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27-28 P3 013,345 Boren Ave N,Seattle,WA,98109,47.621517,-122.336996,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27-28 P3 014,345 Boren Ave N,Seattle,WA,98109,47.621596,-122.337002,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27-28 P3 015,345 Boren Ave N,Seattle,WA,98109,47.621392,-122.336361,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27-28 P5 010,345 Boren Ave N,Seattle,WA,98109,47.621597,-122.337012,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27-28 P5 011,345 Boren Ave N,Seattle,WA,98109,47.621624,-122.336999,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27-28 P5 009,345 Boren Ave N,Seattle,WA,98109,47.621547,-122.33698,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27-28 P6 008,345 Boren Ave N,Seattle,WA,98109,47.621566,-122.336961,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27-28 P6 006,345 Boren Ave N,Seattle,WA,98109,47.621587,-122.336956,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Aspen Ridge Apartments,12601 68th Avenue South,Seattle,WA,98178,47.4902,-122.2493,J1772,,1.0,,24 hours daily,E,888-998-2546,Blink Network
+Nia II,9935 8th Avenue Southwest,Seattle,WA,98106,47.51424,-122.34568,J1772,,2.0,,24 hours daily,E,888-998-2546,Blink Network
+BMR-NORTHEDGE NORTHEDGE #1,1621 N 34th St,Seattle,WA,98103,47.64787,-122.33814,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+PIKE PLACE STALL 204 & 205,1530 Alaksan Way,Seattle,WA,98101,47.60852,-122.34208,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+PIKE PLACE STALL 202 & 203,1530 Alaksan Way,Seattle,WA,98101,47.608639,-122.342184,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT FREMONT 1,311 North 45th Street,Seattle,WA,98103,47.661366,-122.354842,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Neighborhood House - Zev Co-Op Public,6400 Sylvan Way SW,Seattle,WA,98126,47.54486,-122.3722,J1772,,1.0,,24 hours daily,E,855-885-9571,OpConnect
+Discovery Place Condos,4309 34th Ave W,Seattle,WA,98199,47.66,-122.4,J1772,,1.0,,Contact site for information,E,206-786-0026,AMPUP
+PIKE PLACE STALL 887 & 886,1901 Western Ave,Seattle,WA,98101,47.609463,-122.342843,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+PIKE PLACE STALL 206 & 207,1531 Western Ave,Seattle,WA,98101,47.608994,-122.342068,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+PIKE PLACE STALL 208 & 209,1530 Alaskan Way,Seattle,WA,98101,47.608951,-122.342068,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+PIKE PLACE STALL 210 & 211,1530 Alaksan Way,Seattle,WA,98101,47.608929,-122.342047,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT WATERFRONT 2,56 Seneca St,Seattle,WA,98101,47.605721,-122.339005,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+Ramayana Apartments,119 Harvard Avenue East,Seattle,WA,98102,47.61945391175123,-122.32254786164084,J1772,,2.0,,24 hours daily,E,888-998-2546,Blink Network
+Lighthouse Apartments,2433 S Plum St,Seattle,WA,98144,47.58535,-122.30052,J1772,,12.0,,24 hours daily; for residents only,E,206-602-2721,TURNONGREEN
+Seattle - Page One Automotive,420 S 96th St,Seattle,WA,98108,47.51799,-122.32796,J1772,,1.0,,24 hours daily,E,218-939-2318,TURNONGREEN
+The Waverly,210 8th Avenue North,Seattle,WA,98109,47.6202877,-122.3407099,J1772,,9.0,,24 hours daily,E,888-998-2546,Blink Network
+CITY LIGHT WEST SEATTLE 4,4848 California Ave SW,Seattle,WA,98116,47.557984,-122.386589,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT S LAKE UNION 1,317 Pontius Avenue North,Seattle,WA,98109,47.621309,-122.331808,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT STEVENS 3,531 20th Ave E,Seattle,WA,98112,47.62408,-122.306157,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT WALLINGFORD 4,4225 Stone Way N,Seattle,WA,98103,47.658753,-122.342483,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT CAPITOL HILL 1,118 Bellevue Avenue East,Seattle,WA,98102,47.619306,-122.326489,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+RMR Union East Parking Garage,401 Elliott Avenue West,Seattle,WA,98119,47.62253020451757,-122.36378268862852,J1772,,10.0,,24 hours daily,E,888-998-2546,Blink Network
+"Seattle, WA - Fairview Avenue North (Floor 1) - Tesla Destination",800 Fairview Ave N,Seattle,WA,98109,47.626144,-122.333176,J1772 TESLA,,6.0,,,E,877-798-3752,Tesla Destination
+UWMC SURGERY STATION 2,1959 NE Pacific St,Seattle,WA,98195,47.648565,-122.305258,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 19,2121 8th Ave,Seattle,WA,98121,47.616541,-122.338895,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 20,2100 7th Ave,Seattle,WA,98119,47.616361,-122.338907,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 21,2116 7th Ave,Seattle,WA,98121,47.616426,-122.338861,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 24,2116 7th Ave,Seattle,WA,98121,47.616431,-122.338887,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 25,2100 7th Ave,Seattle,WA,98119,47.61643,-122.338839,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 26,2100 7th Ave,Seattle,WA,98119,47.616422,-122.338744,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 22,2112 7th Ave,Seattle,WA,98121,47.616332,-122.339025,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 27,2100 7th Ave,Seattle,WA,98119,47.616428,-122.338808,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 28,2121 8th Ave,Seattle,WA,98121,47.616789,-122.338601,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 29,2112 7th Ave,Seattle,WA,98121,47.616346,-122.338998,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 30,2112 7th Ave,Seattle,WA,98121,47.61633,-122.339038,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 31,2112 7th Ave,Seattle,WA,98121,47.616349,-122.339014,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 32,2100 7th Ave,Seattle,WA,98119,47.616271,-122.338882,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 33,2100 7th Ave,Seattle,WA,98119,47.616289,-122.33887,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 35,2100 7th Ave,Seattle,WA,98119,47.61627,-122.33883,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 37,2100 7th Ave,Seattle,WA,98119,47.616273,-122.338855,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 36,2100 7th Ave,Seattle,WA,98119,47.616288,-122.33885,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 39,2116 7th Ave,Seattle,WA,98121,47.616389,-122.339051,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 40,2116 7th Ave,Seattle,WA,98121,47.616414,-122.339082,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 38,2116 7th Ave,Seattle,WA,98121,47.616432,-122.339064,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 42,2116 7th Ave,Seattle,WA,98121,47.616436,-122.339045,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 41,2116 7th Ave,Seattle,WA,98121,47.616416,-122.339024,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 43,2116 7th Ave,Seattle,WA,98121,47.616397,-122.339079,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 47,2116 7th Ave,Seattle,WA,98121,47.616454,-122.339046,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 46,2116 7th Ave,Seattle,WA,98121,47.616427,-122.339052,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 45,2116 7th Ave,Seattle,WA,98121,47.616442,-122.339095,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 44,2116 7th Ave,Seattle,WA,98121,47.616416,-122.339066,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT NORTH ADMIRAL 1,2106 California Ave SW,Seattle,WA,98116,47.585043,-122.386258,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT N BEACON HILL 4,1435 12th Ave S,Seattle,WA,98144,47.590244,-122.317391,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT WALLINGFORD 1,1721 North 46th Street,Seattle,WA,98103,47.66207,-122.337271,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT OLYMPIC HILLS 2,1645 Northeast 143rd Street,Seattle,WA,98125,47.732052,-122.310951,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 34,2100 7th Ave,Seattle,WA,98119,47.616286,-122.33881,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMLI MARK 24 MARK24 RETAIL,1723 NW Market St,Seattle,WA,98107,47.668673,-122.380077,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT L QUEEN ANNE 1,317 W Mercer St,Seattle,WA,98119,47.62444,-122.361633,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT FREMONT 3,3930 Whitman Avenue North,Seattle,WA,98103,47.654877,-122.34591,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT EASTLAKE 1,1936 Fairview Ave E,Seattle,WA,98102,47.6367,-122.328498,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT RIVERVIEW 3,7021 17th Avenue Southwest,Seattle,WA,98106,47.540392,-122.356193,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA23 - 4,535 Terry Ave N,Seattle,WA,98109,47.624209,-122.337729,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA23 - 5,535 Terry Ave N,Seattle,WA,98109,47.624085,-122.337727,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA24 - 10,512 Boren Ave N,Seattle,WA,98109,47.623802,-122.335507,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA24 - 9,1113 Mercer St,Seattle,WA,98109,47.623721,-122.335511,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+7th & Pine LLC - Garage,1508 7th Avenue,Seattle,WA,98101,47.61181562734982,-122.33325164528084,J1772,,2.0,,24 hours daily,E,888-998-2546,Blink Network
+Tilt49 Realty,1812 Boren Avenue,Seattle,WA,98101,47.6170248,-122.3322181,J1772,,6.0,,24 hours daily,E,888-998-2546,Blink Network
+DOL WEST SEATTLE 1,2420 SW Dakota St,Seattle,WA,98106,47.566899,-122.36456,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Westin-Seattle,1900 5th ave,Seattle,WA,98101,47.613691,-122.33813,J1772,,6.0,,,E,888-222-6618,NOODOE
+1301 2ND AVE,"1301 Second Ave, Suite 400",Seattle,WA,98101,47.607943,-122.338246,J1772,,8.0,,,E,844-226-3873,ABM
+Puget Sound Plaza Garage,315 Union St.,Seattle,WA,98101,47.6086916,-122.3358846,J1772,,4.0,,,E,844-226-3873,ABM
+Financial Center Garage,324 University St,Seattle,WA,98101,47.6080393,-122.335645,J1772,,4.0,,,E,844-226-3873,ABM
+1200 Fifth Ave Garage,201 University St,Seattle,WA,98101,47.607309,-122.3370886,J1772,,4.0,,,E,844-226-3873,ABM
+Rose II Apartments,7930 Rainier Ave S,Seattle,WA,98118,47.5307998,-122.269531,J1772,,6.0,,24 hours daily,E,949-945-2000,EVGATEWAY
+SHA - New Holly - Public,7054 32nd Ave S,Seattle,WA,98118,47.53893,-122.29026,J1772,,2.0,,24 hours daily,E,855-885-9571,OpConnect
+UW Northgate,9750 3Rd Ave Ne,Seattle,WA,98115,47.7005705,-122.3249883,J1772,,2.0,,Contact site for information,E,206-947-5500,AMPUP
+SEA29 SEA29-13,207 Boren Avenue North,Seattle,WA,98109,47.62059,-122.336423,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29-12,207 Boren Avenue North,Seattle,WA,98109,47.620647,-122.336378,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29 - 15,207 Boren Avenue North,Seattle,WA,98109,47.620681,-122.336432,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29-10,207 Boren Avenue North,Seattle,WA,98109,47.620723,-122.336356,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29-11,207 Boren Avenue North,Seattle,WA,98109,47.620727,-122.33641,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29-14,207 Boren Avenue North,Seattle,WA,98109,47.620594,-122.336382,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+3400 Stone LLC,3400 Stone Way North,Seattle,WA,98103,47.648715,-122.342289,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+EVROADWAY WA-N-COL-L2-1,9600 College Way N,Seattle,WA,98103,47.698315,-122.33268,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+EVROADWAY WA-N-COL-L2-2,9600 College Way N,Seattle,WA,98103,47.698307,-122.332664,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 21,2250 7th Ave,Seattle,WA,98121,47.617233,-122.340515,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 22,2250 7th Ave,Seattle,WA,98121,47.61739,-122.340317,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 20,2250 7th Ave,Seattle,WA,98121,47.617339,-122.340254,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 23,2250 7th Ave,Seattle,WA,98121,47.617271,-122.340472,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 25,2250 7th Ave,Seattle,WA,98121,47.617423,-122.34026,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 24,2250 7th Ave,Seattle,WA,98121,47.617368,-122.34021,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 26,2250 7th Ave,Seattle,WA,98121,47.617022,-122.339827,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 27,2250 7th Ave,Seattle,WA,98121,47.617321,-122.340248,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA43 - 28,2217 8th Ave,Seattle,WA,98121,47.61734,-122.340255,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT L QUEEN ANNE 3,562 Valley St,Seattle,WA,98109,47.626421,-122.345544,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT W QUEEN ANNE 1,550 West Olympic Place,Seattle,WA,98119,47.627044,-122.364335,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT MADISON PARK 2,4022 E McGilvra St,Seattle,WA,98112,47.640836,-122.280279,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT STEVENS 1,1724 15th Avenue,Seattle,WA,98122,47.617213,-122.312696,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT RIVERVIEW 1,5995 16th Ave SW,Seattle,WA,98106,47.547956,-122.354988,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT WEST SEATTLE 5,4834 Fauntleroy Wy SW,Seattle,WA,98116,47.558211,-122.381237,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT N BEACON HILL 5,1753 South Forest Street,Seattle,WA,98144,47.577702,-122.309238,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT COLUMBIA CITY 1,4707 35th Avenue South,Seattle,WA,98118,47.560561,-122.288911,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Weatherford Apartments,1321 East John Street,Seattle,WA,98102,47.61997513268869,-122.31467650245784,J1772,,2.0,,24 hours daily,E,888-998-2546,Blink Network
+B-25 B-25,2801 1st Avenue,Seattle,WA,98121,47.616311,-122.352152,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA42 - 23,2121 8th Ave,Seattle,WA,98121,47.616681,-122.338849,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 007,440 Terry Avenue North,Seattle,WA,98109,47.622845,-122.336749,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 008,440 Terry Ave N,Seattle,WA,98109,47.622852,-122.336726,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 006,440 Terry Avenue North,Seattle,WA,98109,47.622842,-122.336819,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 009,440 Terry Ave N,Seattle,WA,98109,47.622837,-122.336739,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 010,440 Terry Ave N,Seattle,WA,98109,47.622852,-122.336741,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 011,440 Terry Ave N,Seattle,WA,98109,47.622852,-122.336739,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 012,440 Terry Ave N,Seattle,WA,98109,47.622866,-122.336696,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 015,440 Terry Ave N,Seattle,WA,98109,47.622846,-122.336704,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 014,440 Terry Ave N,Seattle,WA,98109,47.622823,-122.336677,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA20-22 013,440 Terry Ave N,Seattle,WA,98109,47.622744,-122.33662,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29 - 16,207 Boren Avenue North,Seattle,WA,98109,47.620432,-122.336283,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA29 SEA29 - 17,207 Boren Avenue North,Seattle,WA,98109,47.620424,-122.336299,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CON PL P2,2125 1st Ave,Seattle,WA,98121,47.612201,-122.345015,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27.28 - 16,345 Boren Avenue North,Seattle,WA,98109,47.621533,-122.336347,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27.28 - 17,351 Boren Ave N,Seattle,WA,98109,47.621552,-122.336279,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27.28 - 18,345 Boren Avenue North,Seattle,WA,98109,47.621546,-122.336345,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27.28 - 19,345 Boren Avenue North,Seattle,WA,98109,47.621539,-122.336329,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27.28 - 20,345 Boren Avenue North,Seattle,WA,98109,47.62155,-122.336344,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT GREEN LAKE 1,407 NE Maple Leaf Pl,Seattle,WA,98115,47.681441,-122.324648,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA27.28 - 22,345 Boren Ave N,Seattle,WA,98109,47.621538,-122.337002,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 27,2121 7th Ave,Seattle,WA,98121,47.616081,-122.339874,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 28,2121 7th Ave,Seattle,WA,98121,47.616105,-122.339962,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 29,2121 7th Ave,Seattle,WA,98121,47.615845,-122.340195,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 26,2121 7th Ave,Seattle,WA,98121,47.615857,-122.340172,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 25,2121 7th Ave,Seattle,WA,98121,47.615824,-122.340175,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 33,2121 7th Ave,Seattle,WA,98121,47.616138,-122.34008,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 34,2121 7th Ave,Seattle,WA,98121,47.61603,-122.340176,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 35,2121 7th Ave,Seattle,WA,98121,47.615827,-122.340219,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 38,2111 7th Ave,Seattle,WA,98101,47.61614,-122.339887,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 40,2121 7th Ave,Seattle,WA,98121,47.615979,-122.340345,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 44,2121 7th Ave,Seattle,WA,98121,47.6161,-122.339909,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 31,2121 7th Ave,Seattle,WA,98121,47.616104,-122.339857,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 30,2121 7th Ave,Seattle,WA,98121,47.616108,-122.339884,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 32,2121 7th Ave,Seattle,WA,98121,47.616198,-122.340016,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 36,2121 7th Ave,Seattle,WA,98121,47.616115,-122.339868,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 41,2121 7th Ave,Seattle,WA,98121,47.615946,-122.340205,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 39,2121 7th Ave,Seattle,WA,98121,47.615958,-122.340307,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 42,2121 7th Ave,Seattle,WA,98121,47.616179,-122.339974,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 43,2121 7th Ave,Seattle,WA,98121,47.616093,-122.339944,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+SEA41 SEA41 - 37,2121 7th Ave,Seattle,WA,98121,47.616105,-122.339872,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44 - 14,2205 7th Ave,Seattle,WA,98121,47.616947,-122.340723,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44 - 13,2205 7th Ave,Seattle,WA,98121,47.616563,-122.340892,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44 - 12,2205 7th Ave,Seattle,WA,98121,47.617012,-122.340637,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44 - 11,2205 7th Ave,Seattle,WA,98121,47.616956,-122.34076,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA44 - 10,2205 7th Ave,Seattle,WA,98121,47.617055,-122.340658,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CON PL PB,2125 1st Ave,Seattle,WA,98121,47.612222,-122.34511,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Oregon 42 Apartments,4502 42nd Avenue Southwest,Seattle,WA,98116,47.5627154,-122.3852736,J1772,,2.0,,24 hours daily,E,888-998-2546,Blink Network
+AMZ SEA25.26 - 14,551 Boren Avenue North,Seattle,WA,98109,47.623958,-122.336996,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26 - 13,551 Boren Avenue North,Seattle,WA,98109,47.624145,-122.33669,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA25.26 - 12,551 Boren Avenue North,Seattle,WA,98109,47.624153,-122.336686,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-14,2021 7th Ave,Seattle,WA,98121,47.615111,-122.338365,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-15,2021 7th Ave,Seattle,WA,98121,47.6151,-122.338386,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-17,2001 Westlake Ave,Seattle,WA,98121,47.614992,-122.338277,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-16,2021 7th Ave,Seattle,WA,98121,47.615004,-122.3383,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-20,2001 Westlake Ave,Seattle,WA,98121,47.614988,-122.338322,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-19,2001 Westlake Ave,Seattle,WA,98121,47.614982,-122.338297,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-18,2001 Westlake Ave,Seattle,WA,98121,47.614986,-122.33829,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-26,2021 7th Ave,Seattle,WA,98121,47.615012,-122.33832,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-25,2021 7th Ave,Seattle,WA,98121,47.615014,-122.338291,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-24,2021 7th Ave,Seattle,WA,98121,47.61502,-122.338311,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-23,2001 Westlake Ave,Seattle,WA,98121,47.614974,-122.338306,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-22,2001 Westlake Ave,Seattle,WA,98121,47.614997,-122.338314,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-21,2001 Westlake Ave,Seattle,WA,98121,47.614998,-122.338285,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-32,2001 Westlake Ave,Seattle,WA,98121,47.615004,-122.338268,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-31,2021 7th Ave,Seattle,WA,98121,47.615003,-122.33833,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-30,2041 7th Ave,Seattle,WA,98121,47.615302,-122.338526,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-29,2041 7th Ave,Seattle,WA,98121,47.615283,-122.338545,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-28,2041 7th Ave,Seattle,WA,98121,47.615331,-122.338553,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMZ SEA40-27,2041 7th Ave,Seattle,WA,98121,47.615323,-122.338563,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Homewood Suites by Hilton Seattle Downtown - Tesla Destination,206  Western Ave W,Seattle,WA,98119,47.620565,-122.359182,J1772 TESLA,,6.0,,,E,877-798-3752,Tesla Destination
+Millennium Tower - Tesla Destination,719 2nd Ave,Seattle,WA,98104,47.599191,-122.331591,J1772 TESLA,,6.0,,,E,877-798-3752,Tesla Destination
+AGC of Washington - Tesla Destination,1200 Westlake Ave N,Seattle,WA,98109,47.630012,-122.33959,J1772 TESLA,,6.0,,,E,877-798-3752,Tesla Destination
+Rainier Square - Level E - Tesla Destination,1340 4th Ave,Seattle,WA,98101,47.609191,-122.335342,TESLA,,12.0,,,E,877-798-3752,Tesla Destination
+Puget Sound Solar - Tesla Destination,805 Rainier Ave S,Seattle,WA,98144,47.595418,-122.311677,J1772 TESLA,,6.0,,,E,877-798-3752,Tesla Destination
+CITY LIGHT MINOR 2,1134 13th Ave,Seattle,WA,98122,47.612641,-122.315266,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Whole Foods Seattle (Westlake),2210 Westlake Ave,Seattle,WA,98121,47.6183604,-122.3383451,CHADEMO J1772COMBO,,,6.0,24 hours daily,E,877-455-3833,eVgo Network
+Northgate QFC,11100 Roosevelt Way NE,Seattle,WA,98125,47.70931,-122.31601,CHADEMO J1772COMBO,,,2.0,24 hours daily,E,877-455-3833,eVgo Network
+BOREN LABS 1 NORTH CHARGING,1928 Boren Ave,Seattle,WA,98101,47.617552,-122.333404,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BOREN LABS 1 SOUTH CHARGING,1918 Boren Ave,Seattle,WA,98101,47.617674,-122.333222,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+NORAM DEXTER 1,1101 Dexter Ave N,Seattle,WA,98109,47.628734,-122.342924,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+NORAM DEXTER 3,1101 Dexter Ave N,Seattle,WA,98109,47.6285,-122.342944,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+NORAM DEXTER 2,1101 Dexter Ave N,Seattle,WA,98109,47.628558,-122.342944,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+NORAM DEXTER 4,1101 Dexter Ave N,Seattle,WA,98109,47.628616,-122.342933,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+NORAM DEXTER 5,1101 Dexter Ave N,Seattle,WA,98109,47.628639,-122.342659,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+NORAM DEXTER 6,1101 Dexter Ave N,Seattle,WA,98109,47.628509,-122.342643,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+EVROADWAY WA-PACSCI01,164 2nd Ave N,Seattle,WA,98109,47.619128,-122.352517,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+EVROADWAY WA-N-COLLEGE01,9600 College Way N,Seattle,WA,98103,47.699417,-122.334601,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+EVROADWAY WA-C-COLLEGE01,1601 Harvard Ave,Seattle,WA,98122,47.615459,-122.322558,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+EVROADWAY WA-G-COLLEGE01,6737 Corson Avenue South,Seattle,WA,98108,47.54231,-122.324521,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+EVROADWAY WA-S-COLLEGE01,6000 16th Ave SW,Seattle,WA,98106,47.546315,-122.351959,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT ADAMS 2,1722 Northwest 57th Street,Seattle,WA,98107,47.670265,-122.379499,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT ADAMS 1,1722 Northwest 57th Street,Seattle,WA,98107,47.67027,-122.3795,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+1313 E COLUMBIA CLMB 2707 WEST,1313 E Columbia St,Seattle,WA,98122,47.60829,-122.314623,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+1313 E COLUMBIA CLMB 3274 EAST,1313 E Columbia St,Seattle,WA,98122,47.608304,-122.314505,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT WATERFRONT 1,56 Seneca St,Seattle,WA,98101,47.605576,-122.338941,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT RIVERVIEW 2,5995 16th Ave SW,Seattle,WA,98106,47.547937,-122.354985,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT W QUEEN ANNE 2,550 West Olympic Place,Seattle,WA,98119,47.627041,-122.364341,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT CID 1,649 7th Avenue South,Seattle,WA,98104,47.597099,-122.323865,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Blue Core Power - 811 Massachussetts,811 S Massachussetts St,Seattle,WA,98134,47.5875715,-122.3221208,J1772,,2.0,,24 hours daily,E,855-885-9571,OpConnect
+Blue Core - Swickard Dukes,811 S Massachussetts St,Seattle,WA,98134,47.5875715,-122.3221208,J1772,,3.0,,24 hours daily,E,855-885-9571,OpConnect
+THE NOBLE STALL 30 29,4301 Stone Way N,Seattle,WA,98103,47.659329,-122.342775,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Fred Meyer - Tesla Supercharger,915 NW 45th St,Seattle,WA,98107,47.661146,-122.370395,TESLA,,,12.0,24 hours daily,E,877-798-3752,Tesla
+Northway West Office Building - Tesla Supercharger,10700 Meridian Ave N,Seattle,WA,98133,47.706949,-122.333572,TESLA,,,12.0,24 hours daily,E,877-798-3752,Tesla
+CITY LIGHT MADISON MILLER2,2113 East Olive Street,Seattle,WA,98122,47.617074,-122.30414,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT SOUTH SERVICE 2,409 South Spokane Street,Seattle,WA,98134,47.571207,-122.328676,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT WEST SEATTLE 2,4535 39th Avenue Southwest,Seattle,WA,98116,47.562216,-122.381639,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT N BEACON HILL 2,2535 16th Avenue South,Seattle,WA,98144,47.579728,-122.312203,CHADEMO J1772COMBO,,,1.0,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT WALLINGFORD 3,4225 Stone Way North,Seattle,WA,98103,47.658757,-122.342414,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT STEVENS 4,531 20th Ave E,Seattle,WA,98112,47.624082,-122.306153,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT WEST SEATTLE 6,4834 Fauntleroy Wy SW,Seattle,WA,98116,47.558283,-122.381237,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT STEVENS 2,1724 15th Avenue,Seattle,WA,98122,47.617189,-122.312677,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT WEST SEATTLE 3,4848 California Avenue SW,Seattle,WA,98116,47.557841,-122.386742,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY OF SEATAC CITY HALL 5,4800 S 188th St,Seattle,WA,98118,47.43403,-122.27305,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+FIRST LIGHT P86,300 Virginia Street,Seattle,WA,98101,47.61285,-122.341082,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT OLYMPIC HILLS 1,1645 Northeast 143rd Street,Seattle,WA,98125,47.732067,-122.31096,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT WALLINGFORD 2,1721 North 46th Street,Seattle,WA,98103,47.662077,-122.337266,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT NORTH ADMIRAL 2,2106 California Avenue Southwest,Seattle,WA,98116,47.585079,-122.386289,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT N BEACON HILL 3,1435 12th Avenue South,Seattle,WA,98144,47.590181,-122.317398,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT RIVERVIEW 4,7021 17th Avenue Southwest,Seattle,WA,98106,47.540389,-122.356195,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT BITTER LAKE 1,14201 Linden Ave N,Seattle,WA,98133,47.732112,-122.348371,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT BITTER LAKE 2,14201 Linden Ave N,Seattle,WA,98133,47.732211,-122.348548,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT L QUEEN ANNE 2,317 W Mercer St,Seattle,WA,98119,47.624365,-122.361647,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT L QUEEN ANNE 4,570 Valley St,Seattle,WA,98109,47.62637,-122.345544,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT FREMONT 4,3658 Dayton Ave N,Seattle,WA,98103,47.653533,-122.352073,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT COLUMBIA CITY 2,4707 35th Avenue South,Seattle,WA,98118,47.560554,-122.288911,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT N BEACON HILL 6,1753 South Forest Street,Seattle,WA,98144,47.577708,-122.309212,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT N BEACON HILL 7,1407 South Hill Street,Seattle,WA,98144,47.584502,-122.313884,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT N BEACON HILL 8,2101 15th Ave S,Seattle,WA,98144,47.584499,-122.313807,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT MADISON PARK 1,4022 E McGilvra St,Seattle,WA,98112,47.640772,-122.280271,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT EASTLAKE 2,1936 Fairview Ave E,Seattle,WA,98102,47.6367,-122.328498,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+AMLI Wallingford,1850 N 34th St,Seattle,WA,98103,47.648265,-122.335477,J1772,,9.0,,24 hours daily,E,888-385-6671,LOOP
+AMLI South Lake Union,1260 Republican St,Seattle,WA,98109,47.62328,-122.33138,J1772,,6.0,,24 hours daily,E,888-385-6671,LOOP
+CITY LIGHT FREMONT 5,3658 Dayton Avenue North,Seattle,WA,98103,47.653597,-122.3523,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT GREEN LAKE 2,407 NE Maple Leaf Pl,Seattle,WA,98115,47.681526,-122.324639,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT PORTAGE BAY 1,2915 Fuhrman Avenue East,Seattle,WA,98102,47.647284,-122.317499,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+CITY LIGHT MINOR 1,1134 13th Ave,Seattle,WA,98122,47.612506,-122.31537,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+BLAKE1 STATION 1,5020 California Avenue Southwest,Seattle,WA,98136,47.556565,-122.386442,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Vue on Harvard - Garage,740 Harvard Ave E,Seattle,WA,98102,47.626235432,-122.322031057,J1772,,4.0,,Contact station for hours of availability,E,206-561-0032,AMPUP
+201 ELLIOTT STATION 1,201 Elliott Ave W,Seattle,WA,98119,47.619981,-122.360192,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+201 ELLIOTT STATION 2,201 Elliott Ave W,Seattle,WA,98119,47.619981,-122.360278,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Safeway Seattle #1143 - 8340 15th Ave Nw,8340 15th Ave NW,Seattle,WA,98117,47.689356,-122.37659,CHADEMO J1772COMBO,,,4.0,24 hours daily,E,877-455-3833,eVgo Network
+Ballard Blocks,1451 NW 46th St,Seattle,WA,98107,47.6617217,-122.3758674,CHADEMO J1772COMBO,,,2.0,24 hours daily,E,877-455-3833,eVgo Network
+Whole Foods Madison Broadway,1001 Broadway,Seattle,WA,98122,47.611261,-122.320999,CHADEMO J1772COMBO,,,2.0,24 hours daily,E,877-455-3833,eVgo Network
+DOL WEST SEATTLE 2,2420 SW Dakota St,Seattle,WA,98106,47.566877,-122.36464,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+HFA Borrower LLC,200 1st Avenue West,Seattle,WA,98119,47.62025721078499,-122.35766822727732,J1772,,4.0,,24 hours daily,E,888-998-2546,Blink Network
+4th & Madison - Series,925 4th Avenue,Seattle,WA,98104,47.605192,-122.33285,J1772,,8.0,,24 hours daily,E,888-998-2546,Blink Network
+MTR - Seattle,7800 Detroit Ave SW,Seattle,WA,98106,47.5320289,-122.3375342,J1772COMBO,,,3.0,,E,888-222-6618,NOODOE
+Gridline,1421 Harvard Ave,Seattle,WA,98122,47.61343,-122.322494,J1772,,10.0,,Contact stations for hours of operation,E,206-294-3453,AMPUP
+Seattle Honda - Series,2005 Airport Way South,Seattle,WA,98134,47.5855321922408,-122.3220137897597,J1772,,2.0,,24 hours daily,E,888-998-2546,Blink Network
+Komo Plaza Garage,140 4th Ave N.,Seattle,WA,98109,47.61963111516519,-122.34822224825623,J1772,,8.0,,Mon: 6:00am-9:00pm; Tue: 6:00am-9:00pm; Wed: 6:00am-9:00pm; Thu: 6:00am-9:00pm; Fri: 6:00am-10:00pm; Sat: 6:00am-10:00pm; Sun: 8:00am-9:00pm,E,855-223-5351,FLASH
+PIKE PLACE STALL 890 & 891,1901 Western Avenue,Seattle,WA,98101,47.609568,-122.342753,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+PIKE PLACE STALL 888 & 889,1901 Western Avenue,Seattle,WA,98101,47.60977,-122.343068,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+PIKE PLACE STALL 950,1901 Western Avenue,Seattle,WA,98101,47.609553,-122.342925,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS 109,1823 Minor Avenue,Seattle,WA,98101,47.617077,-122.331635,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS 107,1823 Minor Avenue,Seattle,WA,98101,47.617164,-122.331666,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS 106,1823 Minor Avenue,Seattle,WA,98101,47.617186,-122.331649,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS 152,1823 Minor Avenue,Seattle,WA,98101,47.617027,-122.331576,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS 151,1823 Minor Ave,Seattle,WA,98101,47.616975,-122.33159,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS STATION - 153,1823 Minor Avenue,Seattle,WA,98101,47.616988,-122.331591,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS STATION - 150,1823 Minor Avenue,Seattle,WA,98101,47.616952,-122.331583,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS STATION - 148,1823 Minor Avenue,Seattle,WA,98101,47.616957,-122.331599,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS STATION - 147,1823 Minor Avenue,Seattle,WA,98101,47.616986,-122.331584,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS 146,1823 Minor Avenue,Seattle,WA,98101,47.616953,-122.331535,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS STATION - 149,1823 Minor Avenue,Seattle,WA,98101,47.617143,-122.331449,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS 141,1823 Minor Avenue,Seattle,WA,98101,47.617029,-122.331509,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS 108,1823 Minor Avenue,Seattle,WA,98101,47.617183,-122.331682,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+KINECT TOWERS 144,1823 Minor Ave,Seattle,WA,98101,47.617188,-122.33152,J1772,,1.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+PIKE PLACE STALL 892 & 893,1901 Western Avenue,Seattle,WA,98101,47.60968,-122.34291,J1772,,2.0,,24 hours daily,E,888-758-4389,ChargePoint Network
+Met Park West,1731 Minor Ave,Seattle,WA,98121,47.61627,-122.33032,J1772,,3.0,,24 hours daily,E,833-611-5965,VIALYNK
+Met Park East,1730 Minor Ave,Seattle,WA,98121,47.61683,-122.32967,J1772,,3.0,,24 hours daily,E,833-611-5965,VIALYNK
