@@ -20,6 +20,7 @@
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
     <!-- Turf.js for spatial operations -->
     <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+
     <style>
         body {
             margin: 0;
@@ -47,7 +48,7 @@
             style: 'mapbox://styles/mapbox/streets-v10', // change for custom style <--------------------------------------------------------------
 
             // Initial view over Seattle
-            // May need to adjust center according to description boxes
+            /* May need to adjust center according to description boxes */
             center: [-122.33, 47.6],
             zoom: 10.5
         });
@@ -63,7 +64,7 @@
             let evData = await evRes.json();
 
             // Filter EV points to only those within the neighborhoods using Turf
-            // * Some points from the geojson lie outside the neighborhood polygons
+            /* Some points from the geojson lie outside the neighborhood polygons */
             let filteredEvData = evData;
             filteredEvData = turf.pointsWithinPolygon(evData, neighborhoodsData);
 
@@ -87,19 +88,19 @@
                     }
                 });
                 
+                /* Each 'station' is an individual point in the geojson, but clusters will group them visually */
                 // Add EV stations geojson source with clustering enabled
-                // Each 'station' is an individual point in the geojson, but clusters will group them visually
                 map.addSource('evData', {
                     type: 'geojson',
                     data: filteredEvData,
                     cluster: true,
-                    // There is no need to show specific locations of stations if there are like 20 in one area
+                    /* There is no need to show specific locations of stations if there are like 20 in one area */
                     clusterMaxZoom: 20, // clusters up to this zoom
                     clusterRadius: 50 // radius of each cluster when clustering points (defaults to 50)
                 });
 
-                // Attempt to load icon from the project's `images/` folder
-                // Place your PNG at `images/charging-station.png` (respect Flaticon attribution)
+                // Load custom icon for EV charging stations
+                // Icon URL: https://www.flaticon.com/free-icons/electric-charging-station
                 map.loadImage('images/charging-station.png', function (error, image) {
 
                     // Add the icon image and use symbol layers for clusters and single points
