@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- mapbox integration, use Brandon's token -->
+<!-- title, headers, styling -->
+<!-- load map, layers -->
+<!-- add QoL features (...) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Including the Mapbox GL CSS file -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+    <!-- Including the Mapbox GL JS file -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+    <title>Seattle EV Stations Map</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoidHNldmVudHMiLCJhIjoiY2xmdTY2ZG94MDduejNsbHVubjYwemdybCJ9.UQk5yOh_WSSYizI_YNqorA';
+
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [-122.33, 47.6],
+            zoom: 12
+        });
+        
+        // Load data and add as layer
+        async function geojsonFetch() {
+            // Fetch neighborhoods GeoJSON
+            let neighborhoodsRes = await fetch('assets/neighborhoods_clean.geojson');
+            let neighborhoodsData = await neighborhoodsRes.json();
+
+            // Fetch EV stations GeoJSON
+            let evRes = await fetch('assets/eattle_ev_cleaned_clean.geojson');
+            let evData = await evRes.json();
+
+            map.on('load', function loadingData() {
+                map.addSource('ev', {
+                    type: 'geojson',
+                    data: evData
+                });
+
+                map.addSource('neighborhoods', {
+                    type: 'geojson',
+                    data: neighborhoodsData
+                });
+
+                map.addLayer({
+                    'id': 'neighborhoods-layer',
+                    'type': 'fill',
+                    'source': 'neighborhoods',
+                    'layout': {},
+                    'paint': {
+                        'fill-color': '#888888',
+                        'fill-opacity': 0.4
+                    }
+                });
+
+                map.addLayer({
+                    'id': 'ev-layer',
+                    'type': 'circle',
+                    'source': 'ev',
+                    'paint': {
+                        'circle-radius': 6,
+                        'circle-color': '#FF5722'
+                    }
+                });
+            });
+
+            map.on('mousemove', ({ point }) => {
+                const nbh = map.queryRenderedFeatures(point, {
+                    layers: ['neighborhoods-layer']
+                });
+                if (nbh.length > 0) {
+                    map.getCanvas().style.cursor = 'pointer';
+                    const neighborhoodName = nbh[0].properties.name;
+                    // You can add more interactivity here, like displaying the neighborhood name
+                } else {
+                    map.getCanvas().style.cursor = '';
+                }
+            });
+        }
+
+        // Call the function after map initialization
+        geojsonFetch();
+    </script>
+</body>
+
+</html>
