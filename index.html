@@ -82,7 +82,7 @@
                     'layout': {},
                     'paint': {
                         'fill-color': '#888888',
-                        'fill-opacity': 0.4,
+                        'fill-opacity': 0.3,
                         'fill-outline-color': '#000000'
                     }
                 });
@@ -101,65 +101,6 @@
                 // Attempt to load icon from the project's `images/` folder
                 // Place your PNG at `images/charging-station.png` (respect Flaticon attribution)
                 map.loadImage('images/charging-station.png', function (error, image) {
-                    if (error || !image) {
-                        // If icon not available, show clusters as circles + counts, and single points as circles
-                        console.warn('Charging station icon not found, using circle-based clusters.', error);
-
-                        // Cluster circles
-                        map.addLayer({
-                            id: 'clusters',
-                            type: 'circle',
-                            source: 'evData',
-                            filter: ['has', 'point_count'],
-                            paint: {
-                                'circle-color': '#FF8C00',
-                                'circle-radius': [
-                                    'step',
-                                    ['get', 'point_count'],
-                                    15, // radius when count < first step
-                                    10, 20,
-                                    50, 30
-                                ],
-                                'circle-opacity': 0.8
-                            }
-                        });
-
-                        // Cluster count labels (fallback circle clusters)
-                        map.addLayer({
-                            id: 'cluster-count',
-                            type: 'symbol',
-                            source: 'evData',
-                            filter: ['has', 'point_count'],
-                            layout: {
-                                'text-field': '{point_count_abbreviated}',
-                                'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-                                'text-size': 13.7,
-                                'text-anchor': 'top',          // anchor text to the top so it appears below the point
-                                'text-offset': [0, 0.6],       // move it down ~0.6em
-                                'text-allow-overlap': true
-                            },
-                            paint: {
-                                'text-color': 'white',
-                                'text-halo-color': 'black',
-                                'text-halo-width': 1,
-                                'text-halo-blur': 0.5
-                            }
-                        });
-
-                        // Unclustered single points (circle)
-                        map.addLayer({
-                            id: 'unclustered-point',
-                            type: 'circle',
-                            source: 'evData',
-                            filter: ['!', ['has', 'point_count']],
-                            paint: {
-                                'circle-color': '#FF0000',
-                                'circle-radius': 6
-                            }
-                        });
-
-                        return;
-                    }
 
                     // Add the icon image and use symbol layers for clusters and single points
                     map.addImage('charging-station', image, { sdf: false });
