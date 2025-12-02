@@ -6,15 +6,20 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <title>Seattle EV Stations Map</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
     <!-- Including the Mapbox GL CSS file -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+
     <!-- Including the Mapbox GL JS file -->
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
-    <title>Seattle EV Stations Map</title>
+    <!-- Turf.js for spatial operations -->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
     <style>
         body {
             margin: 0;
@@ -34,15 +39,19 @@
 <body>
     <div id="map"></div>
     <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoidHNldmVudHMiLCJhIjoiY2xmdTY2ZG94MDduejNsbHVubjYwemdybCJ9.UQk5yOh_WSSYizI_YNqorA';
+        // Brandon's Mapbox Token (joogleberry)
+        mapboxgl.accessToken = 'pk.eyJ1Ijoiam9vZ2xlYmVycnkiLCJhIjoiY202YjZqcHp3MDVjeDJqbzg5MTgwMng1ZSJ9.SYbn23E8INsag4nFhp7VDA';
 
         const map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v11',
+            style: 'mapbox://styles/mapbox/streets-v10', // change for custom style <--------------------------------------------------------------
+
+            // Initial view over Seattle
+            // May need to adjust center according to description boxes
             center: [-122.33, 47.6],
-            zoom: 12
+            zoom: 10.5
         });
-        
+
         // Load data and add as layer
         async function geojsonFetch() {
             // Fetch neighborhoods GeoJSON
@@ -50,16 +59,29 @@
             let neighborhoodsData = await neighborhoodsRes.json();
 
             // Fetch EV stations GeoJSON
-            let evRes = await fetch('assets/eattle_ev_cleaned_clean.geojson');
+            let evRes = await fetch('assets/seattle_ev_cleaned_clean.geojson');
             let evData = await evRes.json();
 
-            map.on('load', function loadingData() {
-                map.addSource('ev', {
-                    type: 'geojson',
-                    data: evData
-                });
+            // Filter EV points to only those within the neighborhoods using Turf
+            // * Some points from the geojson lie outside the neighborhood polygons
+            let filteredEvData = evData;
+            try {
+                // turf.pointsWithinPolygon returns a FeatureCollection of points inside polygon(s)
+                filteredEvData = turf.pointsWithinPolygon(evData, neighborhoodsData);
+            } catch (e) {
+                // Fallback: test each point against each polygon
+                if (typeof turf !== 'undefined' && turf.booleanPointInPolygon) {
+                    const inside = evData.features.filter(pt => {
+                        return neighborhoodsData.features.some(poly => turf.booleanPointInPolygon(pt, poly));
+                    });
+                    filteredEvData = { type: 'FeatureCollection', features: inside };
+                }
+            }
 
-                map.addSource('neighborhoods', {
+            map.on('load', function loadingData() {
+
+                // Add neighborhoods layer and source
+                map.addSource('neighborhoodsData', {
                     type: 'geojson',
                     data: neighborhoodsData
                 });
@@ -67,37 +89,35 @@
                 map.addLayer({
                     'id': 'neighborhoods-layer',
                     'type': 'fill',
-                    'source': 'neighborhoods',
+                    'source': 'neighborhoodsData',
                     'layout': {},
                     'paint': {
                         'fill-color': '#888888',
-                        'fill-opacity': 0.4
+                        'fill-opacity': 0.4,
+                        'fill-outline-color': '#000000'
                     }
                 });
-
+                
+                // Add EV stations geojson and source
+                map.addSource('evData', {
+                    type: 'geojson',
+                    data: filteredEvData
+                });
+                
                 map.addLayer({
                     'id': 'ev-layer',
                     'type': 'circle',
-                    'source': 'ev',
+                    'source': 'evData',
                     'paint': {
                         'circle-radius': 6,
-                        'circle-color': '#FF5722'
+                        'circle-color': '#FF0000'
                     }
-                });
+                    });
+                
+
             });
 
-            map.on('mousemove', ({ point }) => {
-                const nbh = map.queryRenderedFeatures(point, {
-                    layers: ['neighborhoods-layer']
-                });
-                if (nbh.length > 0) {
-                    map.getCanvas().style.cursor = 'pointer';
-                    const neighborhoodName = nbh[0].properties.name;
-                    // You can add more interactivity here, like displaying the neighborhood name
-                } else {
-                    map.getCanvas().style.cursor = '';
-                }
-            });
+
         }
 
         // Call the function after map initialization
