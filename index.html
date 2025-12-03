@@ -46,13 +46,13 @@
             container: 'map',
             style: 'mapbox://styles/mapbox/streets-v8', // default Mapbox style
             // custom style not working, idk
-            // style: 'mapbox://styles/joogleberry/cmip84zdn002k01ssamty38p5', // custom style, removed pedestrian layers and 3D buildings
+            //style: 'mapbox://styles/joogleberry/cmip84zdn002k01ssamty38p5', // custom style, removed pedestrian layers and 3D buildings
             /* May need to adjust center according to description boxes */
             center: [-122.33, 47.6],
             zoom: 10.5
         });
 
-        
+
 
         // Load data and add as layer
         async function geojsonFetch() {
@@ -88,7 +88,7 @@
                         'fill-outline-color': '#000000'
                     }
                 });
-                
+
                 /* Each 'station' is an individual point in the geojson, but clusters will group them visually */
                 // Add EV stations geojson source with clustering enabled
                 map.addSource('evData', {
@@ -139,7 +139,7 @@
                             'text-color': '#FFFFFF',
                             'text-halo-color': '#f94b4a', // red halo to match icon
                             'text-halo-width': 2,
-                            'text-halo-blur': 0.5
+                            //'text-halo-blur': 0.5
                         }
                     });
 
@@ -156,7 +156,7 @@
                         }
                     });
                 });
-                
+
 
             });
 
