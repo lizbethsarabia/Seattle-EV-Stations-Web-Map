@@ -91,6 +91,25 @@ function searchMap(query) {
   }
 }
 
+// Clear search function
+function clearSearch() {
+  var searchInput = document.getElementById('nav-search');
+  if (searchInput) {
+    searchInput.value = '';
+    searchInput.focus();
+  }
+  
+  // Close any open popups
+  if (window.map) {
+    var popups = document.querySelectorAll('.mapboxgl-popup');
+    popups.forEach(function(popup) {
+      popup.remove();
+    });
+  }
+  
+  console.log('Search cleared');
+}
+
 // Go to Top button logic
 var myBtn = null;
 window.addEventListener('DOMContentLoaded', function() {

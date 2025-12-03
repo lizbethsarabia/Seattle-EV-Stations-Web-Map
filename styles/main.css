@@ -73,6 +73,20 @@ html, body {
 	border-radius: 4px;
 }
 
+.topnav .search-container button:hover {
+	background-color: #f0f0f0;
+}
+
+#clear-search-btn {
+	background-color: #ff6b6b !important;
+	color: white !important;
+	margin-left: 4px;
+}
+
+#clear-search-btn:hover {
+	background-color: #ee5a52 !important;
+}
+
 /* Map container should fill the viewport behind the overlay nav */
 #map {
  	position: absolute;
