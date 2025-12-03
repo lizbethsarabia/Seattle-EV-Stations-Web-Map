@@ -2,7 +2,7 @@
 // Assumes Mapbox GL JS and Turf are already loaded in the page (included in head of index.html)
 
 // Brandon's Mapbox Token (joogleberry)
-mapboxgl.accessToken = 'pk.eyJ1Ijoiam9vZ2xlYmVycnkiLCJhIjoiY202YjZqcHp3MDVjeDJqbzg5MTgwMng1ZSJ9.SYbn23E8INsag4nFhp7VDA';
+mapboxgl.accessToken = 'pk.eyJ1Ijoiam9vZ2xlYmVycnkiLCJhIjoiY21pcWpjbGF2MG91NzNkb3JlajJ0dW9odCJ9.r4vApvUFvSsF5u5zZpnQ9g';
 
 const map = new mapboxgl.Map({
     container: 'map',
