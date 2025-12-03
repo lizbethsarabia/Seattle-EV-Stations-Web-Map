@@ -12,15 +12,15 @@
     <title>Seattle EV Stations Map</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 
-    <!-- Favicon (uses the generated transparent icon in the images folder) -->
-    <link rel="icon" href="images/generated%20icon%20transparent.png" type="image/png">
-    <link rel="shortcut icon" href="images/generated%20icon%20transparent.png" type="image/png">
-
     <!-- Including the Mapbox GL CSS file -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
 
     <!-- Including the Mapbox GL JS file -->
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+
+    <!-- Favicon (uses the generated transparent icon in the images folder) -->
+    <link rel="icon" href="images/generated%20icon%20transparent.png" type="image/png">
+    <link rel="shortcut icon" href="images/generated%20icon%20transparent.png" type="image/png">
 
     <!-- Turf.js for spatial operations -->
     <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
@@ -29,7 +29,11 @@
 </head>
 
 <body>
-    
+    <div id="map"></div>
+
+    <!-- Main script (separated from HTML) -->
+    <script src="scripts/main.js"></script>
+
     <!-- Navigation bar -->
     <div class="topnav" id="myTopnav">
         <a class="active" href="index.html">Home</a>
@@ -50,8 +54,8 @@
         <a href="javascript:void(0);" class="icon" onclick="toggleNav()">&#9776;</a>
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    
-    
+
+
 
     <!-- UI helpers (nav toggle, search, top button) -->
     <script src="scripts/ui.js"></script>
@@ -135,9 +139,8 @@
         <button id="reset-filters-btn">Reset</button>
     </div>
 
-    <div id="map"></div>
-    <!-- Main script (separated from HTML) -->
-    <script src="scripts/main.js"></script>
+
+
 </body>
 
 </html>
