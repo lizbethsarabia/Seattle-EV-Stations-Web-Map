@@ -1,0 +1,16 @@
+/* Main stylesheet for Seattle EV Stations Map */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* add any additional UI styles below */

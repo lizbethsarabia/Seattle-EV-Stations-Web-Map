@@ -12,6 +12,10 @@
     <title>Seattle EV Stations Map</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 
+    <!-- Favicon (uses the generated transparent icon in the images folder) -->
+    <link rel="icon" href="images/generated%20icon%20transparent.png" type="image/png">
+    <link rel="shortcut icon" href="images/generated%20icon%20transparent.png" type="image/png">
+
     <!-- Including the Mapbox GL CSS file -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
 
@@ -20,152 +24,14 @@
     <!-- Turf.js for spatial operations -->
     <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
 
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        #map {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100vw;
-            height: 100vh;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
     <div id="map"></div>
-    <script>
-        // Brandon's Mapbox Token (joogleberry)
-        mapboxgl.accessToken = 'pk.eyJ1Ijoiam9vZ2xlYmVycnkiLCJhIjoiY202YjZqcHp3MDVjeDJqbzg5MTgwMng1ZSJ9.SYbn23E8INsag4nFhp7VDA';
 
-        const map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v8', // default Mapbox style
-            // custom style not working, idk
-            //style: 'mapbox://styles/joogleberry/cmip84zdn002k01ssamty38p5', // custom style, removed pedestrian layers and 3D buildings
-            /* May need to adjust center according to description boxes */
-            center: [-122.33, 47.6],
-            zoom: 10.5
-        });
-
-
-
-        // Load data and add as layer
-        async function geojsonFetch() {
-            // Fetch neighborhoods GeoJSON
-            let neighborhoodsRes = await fetch('assets/neighborhoods_clean.geojson');
-            let neighborhoodsData = await neighborhoodsRes.json();
-
-            // Fetch EV stations GeoJSON
-            let evRes = await fetch('assets/seattle_ev_cleaned_clean.geojson');
-            let evData = await evRes.json();
-
-            // Filter EV points to only those within the neighborhoods using Turf
-            /* Some points from the geojson lie outside the neighborhood polygons */
-            let filteredEvData = evData;
-            filteredEvData = turf.pointsWithinPolygon(evData, neighborhoodsData);
-
-            map.on('load', function loadingData() {
-
-                // Add neighborhoods layer and source
-                map.addSource('neighborhoodsData', {
-                    type: 'geojson',
-                    data: neighborhoodsData
-                });
-
-                map.addLayer({
-                    'id': 'neighborhoods-layer',
-                    'type': 'fill',
-                    'source': 'neighborhoodsData',
-                    'layout': {},
-                    'paint': {
-                        'fill-color': '#888888',
-                        'fill-opacity': 0.3,
-                        'fill-outline-color': '#000000'
-                    }
-                });
-
-                /* Each 'station' is an individual point in the geojson, but clusters will group them visually */
-                // Add EV stations geojson source with clustering enabled
-                map.addSource('evData', {
-                    type: 'geojson',
-                    data: filteredEvData,
-                    cluster: true,
-                    /* There is no need to show specific locations of stations if there are like 20 in one area */
-                    clusterMaxZoom: 18, // clusters up to this zoom
-                    clusterRadius: 50 // radius of each cluster when clustering points (defaults to 50)
-                });
-
-                // Load custom icon for EV charging stations
-                // Icon URL: https://www.flaticon.com/free-icons/electric-charging-station
-                map.loadImage('images/charging-station.png', function (error, image) {
-
-                    // Add the icon image and use symbol layers for clusters and single points
-                    map.addImage('charging-station', image, { sdf: false });
-
-                    // Cluster: show single charging-station icon for clustered groups
-                    map.addLayer({
-                        id: 'cluster-symbol',
-                        type: 'symbol',
-                        source: 'evData',
-                        filter: ['has', 'point_count'],
-                        layout: {
-                            'icon-image': 'charging-station',
-                            'icon-size': 0.2,
-                            'icon-allow-overlap': true,
-                            'icon-ignore-placement': true
-                        }
-                    });
-
-                    // Cluster count text on top of cluster icon (positioned below icon)
-                    map.addLayer({
-                        id: 'cluster-count',
-                        type: 'symbol',
-                        source: 'evData',
-                        filter: ['has', 'point_count'],
-                        layout: {
-                            'text-field': '{point_count_abbreviated}',
-                            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-                            'text-size': 12,
-                            'text-anchor': 'top',
-                            'text-offset': [0, 0.6],
-                            'text-allow-overlap': true
-                        },
-                        paint: {
-                            'text-color': '#FFFFFF',
-                            'text-halo-color': '#f94b4a', // red halo to match icon
-                            'text-halo-width': 2,
-                            //'text-halo-blur': 0.5
-                        }
-                    });
-
-                    // Unclustered single-point icons
-                    map.addLayer({
-                        id: 'unclustered-point',
-                        type: 'symbol',
-                        source: 'evData',
-                        filter: ['!', ['has', 'point_count']],
-                        layout: {
-                            'icon-image': 'charging-station',
-                            'icon-size': 0.2,
-                            'icon-allow-overlap': true
-                        }
-                    });
-                });
-
-
-            });
-
-
-        }
-
-        // Call the function after map initialization
-        geojsonFetch();
-    </script>
+    <!-- Main script (separated from HTML) -->
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>
