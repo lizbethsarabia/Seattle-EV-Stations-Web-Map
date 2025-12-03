@@ -2,7 +2,8 @@
 <!-- In progress: mapbox integration, use Brandon's token -->
 <!-- In progress: title, headers, styling -->
 <!-- In progress: load map, layers -->
-<!-- add QoL features (...) -->
+<!-- add QoL features (custom zoom levels) -->
+
 
 <html>
 
@@ -43,13 +44,14 @@
 
         const map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v10', // change for custom style <--------------------------------------------------------------
-
-            // Initial view over Seattle
+            //style: 'mapbox://styles/mapbox/streets-v11', // default Mapbox style
+            style: 'mapbox://styles/joogleberry/cmip84zdn002k01ssamty38p5', // custom style, removed pedestrian layers and 3D buildings
             /* May need to adjust center according to description boxes */
             center: [-122.33, 47.6],
             zoom: 10.5
         });
+
+        
 
         // Load data and add as layer
         async function geojsonFetch() {
