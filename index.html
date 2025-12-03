@@ -55,6 +55,86 @@
 
     <!-- UI helpers (nav toggle, search, top button) -->
     <script src="scripts/ui.js"></script>
+
+    <!-- Liz: Filter Panel -->
+    <div id="filter-panel">
+        <h3>Filters</h3>
+
+        <!-- Connector Type -->
+        <label for="filter-type">Connector Type</label>
+        <select id="filter-type" class="filter-select">
+            <option value="">All Types</option>
+            <option value="J1772">J1772</option>
+            <option value="J1772Combo">J1772Combo (CCS)</option>
+            <option value="CHAdeMO">CHAdeMO</option>
+            <option value="Tesla">Tesla</option>
+            <option value="NEMA1450">NEMA 14-50</option>
+        </select>
+
+        <!-- Charging Level -->
+        <label for="filter-level">Charging Level</label>
+        <select id="filter-level" class="filter-select">
+            <option value="">All</option>
+            <option value="1">Level 1</option>
+            <option value="2">Level 2</option>
+            <option value="dc_fast">DC Fast</option>
+        </select>
+
+        <!-- Network -->
+        <label for="filter-network">Network</label>
+        <select id="filter-network" class="filter-select">
+            <option value="">All Networks</option>
+            <option>Non-Networked</option>
+            <option>ChargePoint Network</option>
+            <option>Blink Network</option>
+            <option>Tesla Destination</option>
+            <option>SHELL_RECHARGE</option>
+            <option>Electrify America</option>
+            <option>Tesla</option>
+            <option>OpConnect</option>
+            <option>eVgo Network</option>
+            <option>EV Connect</option>
+            <option>FLO</option>
+            <option>AMPUP</option>
+            <option>TURNONGREEN</option>
+            <option>NOODOE</option>
+            <option>ABM</option>
+            <option>EVGATEWAY</option>
+            <option>LOOP</option>
+            <option>FLASH</option>
+            <option>VIALYNK</option>
+        </select>
+
+        <!-- Neighborhood -->
+        <label for="filter-neighborhood">Neighborhood</label>
+        <select id="filter-neighborhood" class="filter-select">
+            <option value="">All Neighborhoods</option>
+            <option>Ballard</option>
+            <option>North Central</option>
+            <option>Northeast</option>
+            <option>University District</option>
+            <option>Queen Anne</option>
+            <option>Cascade</option>
+            <option>Magnolia</option>
+            <option>Central Area</option>
+            <option>Downtown</option>
+            <option>Interbay</option>
+            <option>Greater Duwamish</option>
+            <option>West Seattle</option>
+            <option>Beacon Hill</option>
+            <option>Rainier Valley</option>
+            <option>Delridge</option>
+            <option>Seward Park</option>
+            <option>Capitol Hill</option>
+            <option>Lake City</option>
+            <option>Northwest</option>
+            <option>Northgate</option>
+        </select>
+
+        <button id="apply-filters-btn">Apply Filters</button>
+        <button id="reset-filters-btn">Reset</button>
+    </div>
+
     <div id="map"></div>
     <!-- Main script (separated from HTML) -->
     <script src="scripts/main.js"></script>

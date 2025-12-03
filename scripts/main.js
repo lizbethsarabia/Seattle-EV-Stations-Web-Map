@@ -40,6 +40,12 @@ async function geojsonFetch() {
         }
     }
 
+    // Liz: Add neighborhood property to each EV station for filtering
+    filteredEvData.features.forEach(station => {
+        const poly = neighborhoodsData.features.find(n => turf.booleanPointInPolygon(station, n));
+        station.properties.neighborhood = poly ? poly.properties.L_HOOD : null;
+    });
+
     // Expose data globally for search functionality
     window.evData = evData;
     window.neighborhoodsData = neighborhoodsData;
@@ -193,4 +199,88 @@ async function geojsonFetch() {
 // Call the function after map initialization
 geojsonFetch();
 
-/* End of main.js */
+//liz trying to add filtering function
+// Apply filters to EV stations
+function applyFilters() {
+    if (!window.evData || !window.map) return;
+
+    const filters = getFilters();
+
+    // Filter EV features
+    const filteredFeatures = window.evData.features.filter(feature => {
+        const props = feature.properties || {};
+
+        // Connector Level
+        if (filters.level) {
+            if (filters.level === '1' && (!props.ev_level1_evse_num || props.ev_level1_evse_num === 0)) return false;
+            if (filters.level === '2' && (!props.ev_level2_evse_num || props.ev_level2_evse_num === 0)) return false;
+            if (filters.level === 'dc_fast' && (!props.ev_dc_fast_count || props.ev_dc_fast_count === 0)) return false;
+        }
+
+        // Connector Type
+        if (filters.type) {
+            const types = (props.ev_connector_types || '').toLowerCase().split(',').map(s => s.trim());
+            if (!types.includes(filters.type.toLowerCase())) return false;
+        }
+
+        // Network
+        if (filters.network && props.ev_network !== filters.network) return false;
+
+        // Neighborhood
+        if (filters.neighborhood) {
+            if ((props.neighborhood || '').toLowerCase() !== filters.neighborhood.toLowerCase()) return false;
+        }
+
+        return true;
+    });
+
+    const filteredData = { type: 'FeatureCollection', features: filteredFeatures };
+
+    // Update map source
+    const source = map.getSource('evData');
+    if (source) {
+        source.setData(filteredData);
+    }
+
+    // Fly to neighborhood if selected
+    if (filters.neighborhood) {
+        const hoodFeature = window.neighborhoodsData.features.find(f =>
+            (f.properties.L_HOOD || '').toLowerCase() === filters.neighborhood.toLowerCase()
+        );
+
+        if (hoodFeature) {
+            const center = turf.centroid(hoodFeature).geometry.coordinates;
+            map.flyTo({ center, zoom: 13, duration: 1500 });
+        }
+    }
+}
+
+
+
+// Wire Apply/Reset buttons after DOM loads
+window.addEventListener('DOMContentLoaded', function () {
+    const applyBtn = document.getElementById('apply-filters-btn');
+    const resetBtn = document.getElementById('reset-filters-btn');
+
+    if (applyBtn) applyBtn.addEventListener('click', applyFilters);
+
+    if (resetBtn) {
+        resetBtn.addEventListener('click', function () {
+            if (window.evData && map.getSource('evData')) {
+                // Reset the map data
+                map.getSource('evData').setData(window.evData);
+            }
+
+            // Reset UI dropdowns
+            const selects = document.querySelectorAll('.filter-select');
+            selects.forEach(s => s.value = '');
+
+            // Fly back to original map position
+            map.flyTo({
+                center: [-122.335, 47.623],
+                zoom: 10.5,
+                duration: 1500
+            });
+        });
+    }
+});

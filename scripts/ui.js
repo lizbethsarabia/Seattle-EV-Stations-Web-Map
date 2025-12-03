@@ -138,3 +138,15 @@ function scrollFunction() {
 function topFunction() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+
+//Liz adding filters below
+function getFilters() {
+    return {
+        level: document.getElementById('filter-level')?.value || '',
+        type: document.getElementById('filter-type')?.value || '',
+        network: document.getElementById('filter-network')?.value || '',
+        neighborhood: document.getElementById('filter-neighborhood')?.value || ''
+    };
+}
+

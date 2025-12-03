@@ -188,3 +188,86 @@ html, body {
 
 #myBtn:hover { background-color: #23a306; color: black }
 
+/* Liz : FILTER PANEL (LEFT SIDEBAR)*/
+#filter-panel {
+	position: absolute;
+	top: 90px;            /* below the top navbar */
+	left: 12px;
+	width: 260px;
+	padding: 16px;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+	z-index: 1100;
+	max-height: 80vh;
+	overflow-y: auto;
+}
+
+#filter-panel h3 {
+	margin-top: 0;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+/* Label spacing */
+#filter-panel label {
+	display: block;
+	margin: 10px 0 4px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* Dropdowns */
+#filter-panel select {
+	width: 100%;
+	padding: 8px;
+	font-size: 14px;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+/* Filter buttons */
+#apply-filters-btn {
+	width: 100%;
+	margin-top: 12px;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#apply-filters-btn:hover {
+	background: #0d7cd0;
+}
+
+#reset-filters-btn {
+	width: 100%;
+	margin-top: 6px;
+	padding: 10px;
+	background: #ff6b6b;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#reset-filters-btn:hover {
+	background: #ee5a52;
+}
+
+/* Mobile-friendly filters */
+@media screen and (max-width: 700px) {
+	#filter-panel {
+		position: static;
+		width: 100%;
+		max-height: none;
+		margin-top: 90px;
+		box-shadow: none;
+		border-radius: 0;
+	}
+}
