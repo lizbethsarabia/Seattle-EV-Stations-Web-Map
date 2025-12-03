@@ -11,6 +11,9 @@ const map = new mapboxgl.Map({
     zoom: 10.5
 });
 
+// Expose map globally for search functionality
+window.map = map;
+
 // Load data and add as layer
 async function geojsonFetch() {
     // Fetch neighborhoods GeoJSON
@@ -35,6 +38,10 @@ async function geojsonFetch() {
             filteredEvData = { type: 'FeatureCollection', features: inside };
         }
     }
+
+    // Expose data globally for search functionality
+    window.evData = evData;
+    window.neighborhoodsData = neighborhoodsData;
 
     map.on('load', function loadingData() {
 
