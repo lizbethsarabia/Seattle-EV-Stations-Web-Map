@@ -3,14 +3,16 @@
 
 // Brandon's Mapbox Token (joogleberry)
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9vZ2xlYmVycnkiLCJhIjoiY202YjZqcHp3MDVjeDJqbzg5MTgwMng1ZSJ9.SYbn23E8INsag4nFhp7VDA';
-
-const map = new mapboxgl.Map({
-    container: 'map',
-    //style: 'mapbox://styles/joogleberry/cmip84zdn002k01ssamty38p5',
-    style: 'mapbox://styles/mapbox/streets-v8',
-    center: [-122.335, 47.623],
-    zoom: 10.5
-});
+window.onload = function () {
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/joogleberry/cmip84zdn002k01ssamty38p5',
+        //style: 'mapbox://styles/mapbox/streets-v8',
+        center: [-122.335, 47.623],
+        zoom: 10.5
+    });
+    map.addControl(new mapboxgl.NavigationControl(), 'bottom-left'); // Add zoom and compass controls
+};
 
 // Expose map globally for search functionality
 window.map = map;
