@@ -2,7 +2,7 @@
 <!-- In progress: mapbox integration, use Brandon's token -->
 <!-- In progress: title, headers, styling -->
 <!-- In progress: load map, layers -->
-<!-- add QoL features (custom zoom levels) -->
+<!-- add QoL features (zoom buttons, search bar, legend) -->
 
 
 <html>
@@ -21,6 +21,7 @@
 
     <!-- Including the Mapbox GL JS file -->
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+
     <!-- Turf.js for spatial operations -->
     <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
 
@@ -28,8 +29,32 @@
 </head>
 
 <body>
-    <div id="map"></div>
+    
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="section1.html">Section 1</a>
+        <a href="section2.html">Section 2</a>
+        <a href="section3.html">Section 3</a>
+        <a href="see_also.html">See Also</a>
+        <a href="references.html">References</a>
 
+        <div class="search-container">
+            <form id="nav-search-form">
+                <input id="nav-search" type="text" placeholder="Search stations.." name="search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="toggleNav()">&#9776;</a>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+    
+
+    <!-- UI helpers (nav toggle, search, top button) -->
+    <script src="scripts/ui.js"></script>
+    <div id="map"></div>
     <!-- Main script (separated from HTML) -->
     <script src="scripts/main.js"></script>
 </body>
