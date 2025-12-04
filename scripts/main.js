@@ -51,10 +51,11 @@ async function geojsonFetch() {
         station.properties.neighborhood = poly ? poly.properties.L_HOOD : null;
     });
 
-    // Expose data globally for search functionality
-    window.filteredEvData = filteredEvData;
+    // Expose data globally for search & filtering
+    window.evData = filteredEvData;        // <- applyFilters() reads window.evData
+    window.filteredEvData = filteredEvData; // optional (keeps original var name)
     window.neighborhoodsData = neighborhoodsData;
-
+    
     map.on('load', function loadingData() {
 
         // Add neighborhoods layer and source
