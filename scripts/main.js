@@ -294,3 +294,37 @@ window.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+// Click icon to show popup with station details
+map.on('click', 'unclustered-point', function (e) {
+    const coordinates = e.features[0].geometry.coordinates.slice();
+    const props = e.features[0].properties;
+    const stationName = props.station_name || 'EV Station';
+    const address = props.address || 'Address not available';
+    const level1 = props.ev_level1_evse_num || 0;
+    const level2 = props.ev_level2_evse_num || 0;
+    const dcFast = props.ev_dc_fast_count || 0;
+    const network = props.ev_network || 'Unknown';
+    const connectorTypes = props.ev_connector_types || 'Unknown';
+    const popupContent = `
+        <strong>${stationName}</strong><br/>
+        ${address}<br/>
+        <em>Connectors:</em><br/>
+        Level 1: ${level1} &nbsp; Level 2: ${level2} &nbsp; DC Fast: ${dcFast}<br/>
+        Network: ${network}<br/>
+        Connector Types: ${connectorTypes}
+    `;
+    new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(popupContent)
+        .addTo(map);
+});
+
+// Change cursor to pointer on hover
+map.on('mouseenter', 'unclustered-point', function () {
+    map.getCanvas().style.cursor = 'pointer';
+});
+map.on('mouseleave', 'unclustered-point', function () {
+    map.getCanvas().style.cursor = '';
+});
+
