@@ -86,7 +86,7 @@ async function geojsonFetch() {
             type: 'geojson',
             data: filteredEvData,
             cluster: true,
-            clusterMaxZoom: 18,
+            clusterMaxZoom: 17, // Max zoom singles out points in clusters
             clusterRadius: 50
         });
 
