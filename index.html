@@ -64,6 +64,17 @@
     <div id="filter-panel">
         <h3>Filters</h3>
 
+        <!-- Proximity Search -->
+        <div id="proximity-search-section">
+            <label for="proximity-radius">Search by Proximity (miles)</label>
+            <div class="proximity-controls">
+                <input type="number" id="proximity-radius" min="0.1" max="50" step="0.1" placeholder="Search radius" value="1">
+                <button id="proximity-search-btn">Search Nearby</button>
+                <button id="proximity-clear-btn" type="button">Clear Proximity</button>
+            </div>
+            <div id="proximity-status"></div>
+        </div>
+
         <!-- Connector Type -->
         <label for="filter-type">Connector Type</label>
         <select id="filter-type" class="filter-select">

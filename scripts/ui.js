@@ -150,3 +150,139 @@ function getFilters() {
     };
 }
 
+// Proximity Search Feature
+function searchByProximity() {
+  if (!window.evData || !window.map) {
+    alert('Map data not yet loaded');
+    return;
+  }
+
+  // Get user's current location
+  if (!navigator.geolocation) {
+    alert('Geolocation is not supported by your browser.');
+    return;
+  }
+
+  var radiusInput = document.getElementById('proximity-radius');
+  var radius = parseFloat(radiusInput?.value || 1);
+  if (isNaN(radius) || radius <= 0) {
+    alert('Please enter a valid search radius (miles)');
+    return;
+  }
+
+  var statusDiv = document.getElementById('proximity-status');
+  statusDiv.textContent = 'Locating your position...';
+  statusDiv.style.color = '#666';
+
+  navigator.geolocation.getCurrentPosition(
+    function(position) {
+      var userLat = position.coords.latitude;
+      var userLon = position.coords.longitude;
+      var userPoint = turf.point([userLon, userLat]);
+
+      // Find all stations within radius
+      var nearbyStations = window.evData.features.filter(function(feature) {
+        var stationPoint = turf.point(feature.geometry.coordinates);
+        var distance = turf.distance(userPoint, stationPoint, { units: 'miles' });
+        return distance <= radius;
+      });
+
+      if (nearbyStations.length === 0) {
+        statusDiv.textContent = 'No stations within ' + radius + ' miles.';
+        statusDiv.style.color = '#d32f2f';
+        return;
+      }
+
+      // Update map with nearby stations only
+      var nearbyData = { type: 'FeatureCollection', features: nearbyStations };
+      var source = window.map.getSource('evData');
+      if (source) {
+        source.setData(nearbyData);
+      }
+
+      // Add user location marker
+      addUserLocationMarker(userLon, userLat);
+
+      // Zoom to fit user and nearby stations
+      var bbox = turf.bbox(nearbyData);
+      window.map.fitBounds(bbox, { padding: 50, duration: 1000 });
+
+      statusDiv.textContent = 'Found ' + nearbyStations.length + ' station(s) within ' + radius + ' mile(s).';
+      statusDiv.style.color = '#2e7d32';
+    },
+    function(error) {
+      console.warn('Geolocation error:', error);
+      statusDiv.textContent = 'Unable to get your location: ' + error.message;
+      statusDiv.style.color = '#d32f2f';
+    }
+  );
+}
+
+// Add a marker for user's current location
+function addUserLocationMarker(lng, lat) {
+  // Remove existing user marker if present
+  var existingMarker = document.getElementById('user-location-marker');
+  if (existingMarker) {
+    existingMarker.remove();
+  }
+
+  var el = document.createElement('div');
+  el.id = 'user-location-marker';
+  el.style.width = '20px';
+  el.style.height = '20px';
+  el.style.backgroundColor = '#4285F4';
+  el.style.borderRadius = '50%';
+  el.style.border = '3px solid white';
+  el.style.boxShadow = '0 0 10px rgba(66, 133, 244, 0.5)';
+  el.style.cursor = 'pointer';
+
+  new mapboxgl.Marker(el)
+    .setLngLat([lng, lat])
+    .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML('<strong>Your Location</strong>'))
+    .addTo(window.map);
+}
+
+// Clear proximity search and restore all stations
+function clearProximitySearch() {
+  if (!window.evData || !window.map) return;
+
+  // Restore full dataset
+  var source = window.map.getSource('evData');
+  if (source) {
+    source.setData(window.evData);
+  }
+
+  // Remove user location marker
+  var existingMarker = document.getElementById('user-location-marker');
+  if (existingMarker) {
+    existingMarker.remove();
+  }
+
+  // Reset status
+  var statusDiv = document.getElementById('proximity-status');
+  statusDiv.textContent = '';
+
+  // Fly back to original view
+  window.map.flyTo({
+    center: [-122.335, 47.623],
+    zoom: 10.5,
+    duration: 1500
+  });
+
+  console.log('Proximity search cleared');
+}
+
+// Wire up proximity search buttons after DOM loads
+window.addEventListener('DOMContentLoaded', function() {
+  var proximityBtn = document.getElementById('proximity-search-btn');
+  var clearProximityBtn = document.getElementById('proximity-clear-btn');
+
+  if (proximityBtn) {
+    proximityBtn.addEventListener('click', searchByProximity);
+  }
+
+  if (clearProximityBtn) {
+    clearProximityBtn.addEventListener('click', clearProximitySearch);
+  }
+});
+
