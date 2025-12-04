@@ -371,3 +371,43 @@ html, body {
   border-radius: 4px; /* optional, rounded edges */
 }
 
+.cards-container {
+    display: flex;
+    justify-content: center; /* centers all cards horizontally */
+    gap: 20px;               /* space between cards */
+    flex-wrap: wrap;         /* wraps cards to next line on smaller screens */
+}
+
+.card {
+    background-color: #ff6b6b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 200px;           /* card width */
+}
+
+.card i {
+    font-size: 32px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.cards-container, .card, .card p, .card h3 {
+    font-family: inherit;   /* inherit the same font as <main> */
+    color: #ffffff;            /* same default text color */
+}
+
+.center-text {
+  text-align: center;
+}
