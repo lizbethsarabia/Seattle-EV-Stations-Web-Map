@@ -294,18 +294,17 @@ html, body {
 #proximity-search-btn {
 	width: 100%;
 	padding: 10px;
-	background: #4CAF50;
+	background: #2196F3;
 	color: white;
 	border: none;
 	border-radius: 6px;
-	font-size: 14px;
-	font-weight: 600;
+	font-size: 15px;
 	cursor: pointer;
 	transition: background 0.3s;
 }
 
 #proximity-search-btn:hover {
-	background: #45a049;
+	background: #0d7cd0;
 }
 
 #proximity-search-btn:active {
@@ -315,17 +314,17 @@ html, body {
 #proximity-clear-btn {
 	width: 100%;
 	padding: 8px;
-	background: #f44336;
+	background: #ff6b6b;
 	color: white;
 	border: none;
 	border-radius: 6px;
-	font-size: 13px;
+	font-size: 15px;
 	cursor: pointer;
 	transition: background 0.3s;
 }
 
 #proximity-clear-btn:hover {
-	background: #da190b;
+	background: #ee5a52;
 }
 
 #proximity-status {
