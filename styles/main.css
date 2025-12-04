@@ -364,3 +364,11 @@ html, body {
 		border-radius: 0;
 	}
 }
+
+.topnav .logo img {
+  height: 32px;   /* adjust size to fit navbar */
+  width: 32px;
+  vertical-align: middle;
+  border-radius: 4px; /* optional, rounded edges */
+}
+
