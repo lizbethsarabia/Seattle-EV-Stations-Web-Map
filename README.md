@@ -49,17 +49,17 @@ The project uses **two different icons**, each serving a specific role in the in
 
 ### **1. Main Website Favicon**
 
-<img src="images/charging-station.png" width="100" alt="Main Favicon">
+<img src="images/generated-icon-transparent.png" width="100" alt="Main Favicon">
 
 - **Purpose:** Represents the project at the browser level  
 - **Usage:** Appears in browser tabs, bookmarks, and window headers  
-- **Function:** Enhances professionalism and brand identity  
+- **Function:** Enhances professionalism and identity  
 
 This favicon is an important part of the project's visual identity and allows users to easily recognize the web map when multiple tabs are open.
 
 ### **2. EV Charging Station Map Icon**
 
-<img src="images/generated-icon-transparent.png" width="100" alt="Main Favicon">
+<img src="images/charging-station.png" width="100" alt="Main Favicon">
 
 - **Purpose:** Represents EV charging stations on the interactive map  
 - **Usage:** Displayed as the main symbol for each station point on the basemap  
@@ -166,6 +166,7 @@ Special thanks to:
 
 ## AI Use Disclosure  
 
+ChatGPT was used only for minor troubleshooting and small code adjustments (e.g., fixing favicon paths and resolving HTML/JS issues). In addition, the EV station icon / favicon used in this project was generated with the help of ChatGPT. All mapping logic, project design, data processing, interface features, and written content were fully created by the project team.
 
 ---
 
