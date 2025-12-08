@@ -3,17 +3,20 @@
 
 // Brandon's Mapbox Token (joogleberry)
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9vZ2xlYmVycnkiLCJhIjoiY21pcWpjbGF2MG91NzNkb3JlajJ0dW9odCJ9.r4vApvUFvSsF5u5zZpnQ9g';
+
 console.log('Mapbox Access Token:', mapboxgl.accessToken); // Check token is set
 
 const map = new mapboxgl.Map({
     container: 'map',
     // Using Mapbox streets-v12: flat, non-satellite basemap perfect for Seattle
-    style: 'mapbox://styles/mapbox/streets-v12',
+    //style: 'mapbox://styles/mapbox/streets-v11',
+    style: 'mapbox://styles/joogleberry/cmip84zdn002k01ssamty38p5',
     center: [-122.335, 47.623],
     zoom: 10.5
 });
-map.addControl(new mapboxgl.NavigationControl(), 'bottom-left'); // Add zoom and compass controls
-
+map.addControl(new mapboxgl.NavigationControl(), 'bottom-right'); // Add zoom and compass controls
+map.dragRotate.disable(); // Disables rotation using right-click + drag
+map.touchZoomRotate.disableRotation(); // Disables rotation using touch rotation gesture
 
 // Expose map globally for search functionality
 window.map = map;
@@ -69,7 +72,7 @@ async function geojsonFetch() {
             'layout': {},
             'paint': {
                 'fill-color': '#888888',
-                'fill-opacity': 0.3,
+                'fill-opacity': 0.15,
                 'fill-outline-color': '#000000'
             }
         });
