@@ -147,7 +147,22 @@ async function geojsonFetch() {
             // Add the icon image and use symbol layers for clusters and single points
             map.addImage('charging-station', image, { sdf: false });
 
-            // Cluster: show single charging-station icon for clustered groups
+            // Cluster background circle
+            map.addLayer({
+                id: 'cluster-circle',
+                type: 'circle',
+                source: 'evData',
+                filter: ['has', 'point_count'],
+                paint: {
+                    'circle-color': '#FF8C00',
+                    'circle-radius': 20,
+                    'circle-opacity': 0.8,
+                    'circle-stroke-width': 2,
+                    'circle-stroke-color': '#FFF'
+                }
+            });
+
+            // Cluster: show charging-station icon for clustered groups
             map.addLayer({
                 id: 'cluster-symbol',
                 type: 'symbol',
@@ -155,7 +170,7 @@ async function geojsonFetch() {
                 filter: ['has', 'point_count'],
                 layout: {
                     'icon-image': 'charging-station',
-                    'icon-size': 0.2,
+                    'icon-size': 0.25,
                     'icon-allow-overlap': true,
                     'icon-ignore-placement': true
                 }
@@ -195,6 +210,20 @@ async function geojsonFetch() {
                     'icon-allow-overlap': true
                 }
             });
+
+            // Add fallback circle layer for individual points if icons don't show
+            map.addLayer({
+                id: 'unclustered-point-circle',
+                type: 'circle',
+                source: 'evData',
+                filter: ['!', ['has', 'point_count']],
+                paint: {
+                    'circle-color': '#FF6B35',
+                    'circle-radius': 8,
+                    'circle-stroke-width': 2,
+                    'circle-stroke-color': '#FFF'
+                }
+            }, 'unclustered-point');
         });
     });
 }
