@@ -7,6 +7,7 @@ console.log('Mapbox Access Token:', mapboxgl.accessToken); // Check token is set
 
 const map = new mapboxgl.Map({
     container: 'map',
+    // Using Mapbox streets-v12: flat, non-satellite basemap perfect for Seattle
     style: 'mapbox://styles/mapbox/streets-v12',
     center: [-122.335, 47.623],
     zoom: 10.5
@@ -147,7 +148,7 @@ async function geojsonFetch() {
             // Add the icon image and use symbol layers for clusters and single points
             map.addImage('charging-station', image, { sdf: false });
 
-            // Cluster: show charging-station icon for clustered groups
+            // Cluster: show single charging-station icon for clustered groups
             map.addLayer({
                 id: 'cluster-symbol',
                 type: 'symbol',
@@ -155,28 +156,13 @@ async function geojsonFetch() {
                 filter: ['has', 'point_count'],
                 layout: {
                     'icon-image': 'charging-station',
-                    'icon-size': 0.35,
+                    'icon-size': 0.2,
                     'icon-allow-overlap': true,
                     'icon-ignore-placement': true
                 }
             });
 
-            // Cluster count badge (circle background for count)
-            map.addLayer({
-                id: 'cluster-count-bg',
-                type: 'circle',
-                source: 'evData',
-                filter: ['has', 'point_count'],
-                paint: {
-                    'circle-color': '#FF0000',
-                    'circle-radius': 12,
-                    'circle-opacity': 1,
-                    'circle-stroke-width': 2,
-                    'circle-stroke-color': '#FFF'
-                }
-            });
-
-            // Cluster count text on top of count badge
+            // Cluster count text on top of cluster icon (positioned below icon)
             map.addLayer({
                 id: 'cluster-count',
                 type: 'symbol',
@@ -185,14 +171,16 @@ async function geojsonFetch() {
                 layout: {
                     'text-field': '{point_count_abbreviated}',
                     'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-                    'text-size': 13,
-                    'text-anchor': 'center',
+                    'text-size': 12,
+                    'text-anchor': 'top',
+                    'text-offset': [0, 0.6],
                     'text-allow-overlap': true
                 },
                 paint: {
                     'text-color': '#FFFFFF',
-                    'text-halo-color': '#000',
-                    'text-halo-width': 0
+                    'text-halo-color': '#f94b4a',
+                    'text-halo-width': 2,
+                    'text-halo-blur': 0.5
                 }
             });
 
@@ -208,20 +196,6 @@ async function geojsonFetch() {
                     'icon-allow-overlap': true
                 }
             });
-
-            // Add fallback circle layer for individual points if icons don't show
-            map.addLayer({
-                id: 'unclustered-point-circle',
-                type: 'circle',
-                source: 'evData',
-                filter: ['!', ['has', 'point_count']],
-                paint: {
-                    'circle-color': '#FF6B35',
-                    'circle-radius': 8,
-                    'circle-stroke-width': 2,
-                    'circle-stroke-color': '#FFF'
-                }
-            }, 'unclustered-point');
         });
     });
 }
