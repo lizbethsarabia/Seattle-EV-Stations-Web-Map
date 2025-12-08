@@ -7,14 +7,7 @@ console.log('Mapbox Access Token:', mapboxgl.accessToken); // Check token is set
 
 const map = new mapboxgl.Map({
     container: 'map',
-    //style: 'mapbox://styles/mapbox/streets-v8',
-
-    //changed to liz quick style and it loads--> brandon replace later
-    style: 'mapbox://styles/lizsarabia/cmiqpbiwy000a01sih2m9bndp',
-
-    //style: 'mapbox://styles/joogleberry/cmip84zdn002k01ssamty38p5',
-    //style: 'mapbox://styles/mapbox/streets-v12',
-
+    style: 'mapbox://styles/mapbox/streets-v12',
     center: [-122.335, 47.623],
     zoom: 10.5
 });
