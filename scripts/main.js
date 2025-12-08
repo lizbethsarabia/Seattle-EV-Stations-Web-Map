@@ -147,21 +147,6 @@ async function geojsonFetch() {
             // Add the icon image and use symbol layers for clusters and single points
             map.addImage('charging-station', image, { sdf: false });
 
-            // Cluster background circle
-            map.addLayer({
-                id: 'cluster-circle',
-                type: 'circle',
-                source: 'evData',
-                filter: ['has', 'point_count'],
-                paint: {
-                    'circle-color': '#FF8C00',
-                    'circle-radius': 20,
-                    'circle-opacity': 0.8,
-                    'circle-stroke-width': 2,
-                    'circle-stroke-color': '#FFF'
-                }
-            });
-
             // Cluster: show charging-station icon for clustered groups
             map.addLayer({
                 id: 'cluster-symbol',
@@ -170,13 +155,28 @@ async function geojsonFetch() {
                 filter: ['has', 'point_count'],
                 layout: {
                     'icon-image': 'charging-station',
-                    'icon-size': 0.25,
+                    'icon-size': 0.35,
                     'icon-allow-overlap': true,
                     'icon-ignore-placement': true
                 }
             });
 
-            // Cluster count text on top of cluster icon (positioned below icon)
+            // Cluster count badge (circle background for count)
+            map.addLayer({
+                id: 'cluster-count-bg',
+                type: 'circle',
+                source: 'evData',
+                filter: ['has', 'point_count'],
+                paint: {
+                    'circle-color': '#FF0000',
+                    'circle-radius': 12,
+                    'circle-opacity': 1,
+                    'circle-stroke-width': 2,
+                    'circle-stroke-color': '#FFF'
+                }
+            });
+
+            // Cluster count text on top of count badge
             map.addLayer({
                 id: 'cluster-count',
                 type: 'symbol',
@@ -185,16 +185,14 @@ async function geojsonFetch() {
                 layout: {
                     'text-field': '{point_count_abbreviated}',
                     'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-                    'text-size': 12,
-                    'text-anchor': 'top',
-                    'text-offset': [0, 0.6],
+                    'text-size': 13,
+                    'text-anchor': 'center',
                     'text-allow-overlap': true
                 },
                 paint: {
                     'text-color': '#FFFFFF',
-                    'text-halo-color': '#f94b4a',
-                    'text-halo-width': 2,
-                    'text-halo-blur': 0.5
+                    'text-halo-color': '#000',
+                    'text-halo-width': 0
                 }
             });
 
