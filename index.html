@@ -19,8 +19,10 @@
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
 
     <!-- Favicon (uses the generated transparent icon in the images folder) -->
-    <link rel="icon" href="images/generated%20icon%20transparent.png" type="image/png">
-    <link rel="shortcut icon" href="images/generated%20icon%20transparent.png" type="image/png">
+    <link rel="icon" href="images/generated-icon-transparent.png" type="image/png">
+    <link rel="shortcut icon" href="images/generated-icon-transparent.png" type="image/png">
+
+
 
     <!-- Turf.js for spatial operations -->
     <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
@@ -36,10 +38,14 @@
 
     <!-- Navigation bar -->
     <div class="topnav" id="myTopnav">
+        <!-- Logo / Favicon -->
+        <a href="index.html" class="logo">
+            <img src="images/generated-icon-transparent.png" alt="Logo" />
+        </a>
         <a class="active" href="index.html">Home</a>
-        <a href="section1.html">Section 1</a>
-        <a href="section2.html">Section 2</a>
-        <a href="section3.html">Section 3</a>
+        <a href="section1.html">Our Project</a>
+        <a href="section2.html">Design and Interaction</a>
+        <a href="section3.html">Conclusions and Future Work</a>
         <a href="see_also.html">See Also</a>
         <a href="references.html">References</a>
 
@@ -68,7 +74,8 @@
         <div id="proximity-search-section">
             <label for="proximity-radius">Search by Proximity (miles)</label>
             <div class="proximity-controls">
-                <input type="number" id="proximity-radius" min="0.1" max="50" step="0.1" placeholder="Search radius" value="1">
+                <input type="number" id="proximity-radius" min="0.1" max="50" step="0.1" placeholder="Search radius"
+                    value="1">
                 <button id="proximity-search-btn">Search Nearby</button>
                 <button id="proximity-clear-btn" type="button">Clear Proximity</button>
             </div>

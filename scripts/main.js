@@ -9,9 +9,17 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v12',
     center: [-122.335, 47.623],
-    zoom: 10.5
+    zoom: 10.5,
+    dragRotate: false,    // disables rotation via mouse drag
+    touchZoomRotate: false // disables rotation via touch gestures
 });
-map.addControl(new mapboxgl.NavigationControl(), 'bottom-left'); // Add zoom and compass controls
+
+map.addControl(new mapboxgl.NavigationControl({
+    showCompass: false,
+    showZoom: true
+}),
+    'bottom-right'
+); // Add zoom and compass controls
 
 
 // Expose map globally for search functionality
@@ -52,7 +60,7 @@ async function geojsonFetch() {
     window.evData = filteredEvData;        // <- applyFilters() reads window.evData
     window.filteredEvData = filteredEvData; // optional (keeps original var name)
     window.neighborhoodsData = neighborhoodsData;
-    
+
     map.on('load', function loadingData() {
 
         // Add neighborhoods layer and source
