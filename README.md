@@ -166,7 +166,13 @@ Special thanks to:
 
 ## AI Use Disclosure  
 
-ChatGPT was used only for minor troubleshooting and small code adjustments (e.g., fixing favicon paths and resolving HTML/JS issues). In addition, the EV station icon / favicon used in this project was generated with the help of ChatGPT. All mapping logic, project design, data processing, interface features, and written content were fully created by the project team.
+During the development of this project, AI tools were used for only a small amount of auxiliary work, including:
+
+- ChatGPT was used for minor troubleshooting and code adjustments.
+- The EV charging station icons/favicons in the project were generated with the assistance of ChatGPT.
+- Copilot was used to help organize the code structure and implement some parameter designs.
+
+Aside from the above auxiliary work, all mapping logic, project design, data processing, interface functionality, and copywriting were completed independently by the project team.
 
 ---
 
