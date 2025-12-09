@@ -121,6 +121,15 @@ When zoomed out, station markers cluster for better clarity. Clusters expand dyn
 The web map layout adapts to different screen sizes, including mobile devices.
 
 ---
+## Design Highlights
+
+A notable design feature of this project is the dynamic favicon system used to visualize the distribution of EV charging stations on the map. Each favicon displays the total number of charging stations within its corresponding region (for example, a single icon might initially show "518").
+
+As the user zooms in, the icon does not shrink; instead, it splits into multiple icons representing smaller sub-regions, and the numbers displayed on each icon decrease accordingly (for example, "518" may split into icons showing "300" and "218").
+
+This adaptive clustering design helps users quickly understand charging station density at different zoom levels while keeping the map clean and easy to explore.
+
+---
 
 ## Data Sources  
 
